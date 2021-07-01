@@ -9,7 +9,7 @@ const state = {
                 label: '千岛湖',
                 cover: require('@/assets/images/cityImg/qiandaohu.png'),
                 titleCover: require('@/assets/images/cityTitle/qiandaohu.png'),
-                describe: '千岛百姿，湖山傍依，让人心旷神怡的度假胜地。',
+                describe: '千岛百姿湖山傍依，<br>让人心旷神怡的度假胜地。',
                 info: [{
                     type: 1,
                     text: '千岛湖风景区，又称新安江水库，位于浙江省杭州市淳安县境内，国家5A级旅游景区。1958年兴建新安江水库，江水的注入，使得大大小小的山头变成了星罗棋布的1078个岛屿，可谓是人与自然最完美的合作，也使之成为中国最美的地方之一。'
@@ -46,15 +46,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '无论是乘船欣赏千岛之美，还是惬意潇洒的绕岛自驾，亦或是酣畅淋漓的环岛骑行，都可以感受到让人心旷神怡的自然生态环境。'
-                    }, {
-                        type: 1,
-                        text: '梅峰岛俯瞰千岛梅峰顶上有东观景台和西观景台，西观景台的风光更好，在这里远眺，能领略到千岛湖的美，众多的岛屿漂浮在水面上，错落有致，绿水与岛屿交相辉映，相得益彰，描绘出了一幅风景水墨画。'
                     }]
                 }, {
                     describe: '起飞！梦幻热气球！',
                     info: [{
                         type: 1,
-                        text: '挑一个晴天带上恋人一起去坐热气球吧！啤酒小镇附近的的天迹热气球俱乐部满足你的愿望！在干净的草地上缓慢升起来，一起欣赏彩虹之上的景色，伴随着落日的余晖互相长情告白。'
+                        text: '挑一个晴天带上恋人一起去坐热气球吧！啤酒小镇附近的天迹热气球俱乐部满足你的愿望！在干净的草地上缓慢升起来，一起欣赏彩虹之上的景色，伴随着落日的余晖互相长情告白。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/qiandaohu/7.png')
@@ -92,9 +89,6 @@ const state = {
                     }, {
                         type: 1,
                         text: '此外，千岛湖日晒面、茶园豆腐干、天坪石笋干、淳安米羹、千岛湖苞芦粿等都是必须品尝的美味。'
-                    }, {
-                        type: 1,
-                        text: '梅峰岛俯瞰千岛梅峰顶上有东观景台和西观景台，西观景台的风光更好，在这里远眺，能领略到千岛湖的美，众多的岛屿漂浮在水面上，错落有致，绿水与岛屿交相辉映，相得益彰，描绘出了一幅风景水墨画。'
                     }]
                 }, {
                     describe: '湖风和啤酒更配哦',
@@ -131,7 +125,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '群山连绵林海叠翠，山风徐来松涛呼啸',
+                    describe: '群山连绵林海叠翠，<br>山风徐来松涛呼啸',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_29.png'),
                     hotelId: '29',
                     info: [{
@@ -139,7 +133,7 @@ const state = {
                         text: '斯维登·千岛湖翡翠岛精品度假村'
                     }, {
                         type: 1,
-                        text: '推荐亮点：位于千岛湖景区5A级风景区翡翠岛，风景宜人；超大露台，大视角怀抱千湖岛美景；配备私人超大泳池；日本著名设计师隈妍吾设计，低调奢华，精致优雅；交通便利，周边配套齐全，园区周边湖景一望无际，别墅内厨房娱乐设施一应俱全，可聚餐轰趴玩到尽兴。'
+                        text: '推荐亮点：位于千岛湖景区5A级风景区翡翠岛，风景宜人；超大露台，大视角怀抱千岛湖美景；配备私人超大泳池；日本著名设计师隈妍吾设计，低调奢华，精致优雅；交通便利，周边配套齐全，园区周边湖景一望无际，别墅内厨房娱乐设施一应俱全，可聚餐轰趴玩到尽兴。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/qiandaohu/12.png')
@@ -203,7 +197,7 @@ const state = {
                 describe: '江南水乡的水墨画',
                 info: [{
                     type: 1,
-                    text: '建德古为百越地，境域水系属钱塘江流域，每年夏季来临时水库温度低，江面水温高，两股水流因温差弥漫出江雾，形成如梦似幻般的独特景象。山风，春装，树林，时隐时现，宛如一幅大写意的山水画，朦朦胧胧，层层叠叠，宛若人间仙境。'
+                    text: '建德古为百越地，境域水系属钱塘江流域，每年夏季来临时水库温度低，江面水温高，两股水流因温差弥漫出江雾，形成如梦似幻般的独特景象。山风，村庄，树林，时隐时现，宛如一幅大写意的山水画，朦朦胧胧，层层叠叠，宛若人间仙境。'
                 }, {
                     type: 2,
                     text: require('@/assets/images/city/jiande/1.png')
@@ -312,7 +306,7 @@ const state = {
                 describe: '安且吉兮，水墨竹乡',
                 info: [{
                     type: 1,
-                    text: '安吉县是浙江北部一个极具发展特色的生态县，地处长三角经济圈的几何中心，有中国第一竹乡、中国白茶之乡、中国椅业之乡等美誉，是电影《卧虎藏龙》的取景地。建县于公元185年，取《诗经》“安且吉兮”之意得名。境内有凯蒂猫家园、中南百草原、中国大竹海等景点。'
+                    text: '安吉县是浙江北部一个极具发展特色的生态县，地处长三角经济圈的几何中心，有中国第一竹乡、中国白茶之乡、中国椅业之乡等美誉，是电影《卧虎藏龙》的取景地。建县于公元185年，取《诗经》“安且吉兮”之意得名。境内有凯蒂猫乐园、中南百草原、中国大竹海等景点。'
                 },{
                     type: 2,
                     text: require('@/assets/images/city/anji/1.png')
@@ -333,7 +327,7 @@ const state = {
                     text: '小红书用户@DZeer'
                 }],
                 play: [{
-                    describe: '脱离尘世的水墨诗画，别具一格的梦幻乐园',
+                    describe: '脱离尘世的水墨诗画，<br>别具一格的梦幻乐园',
                     info: [{
                         type: 1,
                         text: '小杭坑、天荒坪、云上草原、大竹海......安吉可玩的地方有很多。江浙沪节假日总是人山人海，不如错开出行高峰，来周边的安吉转转，这里不仅有森林峡谷，竹林茂密的自然风光，也有云上草原的天空游乐场这样的梦幻乐园。群峰叠翠，公路盘亘山间，云海竹林，享受最惬意的旅行时光。'
@@ -360,7 +354,7 @@ const state = {
                     describe: '刀光剑影，重温武侠梦',
                     info: [{
                         type: 1,
-                        text: '这里是《卧虎藏龙》的取景地之一，电影中李慕白和玉娇龙竹林穿梭打斗的场面让人印象深刻。引起武侠迷畅想连篇的同时，大竹海作为一个天然氧吧，也适合携全家老少来此登山洗肺，获取内心的宁静。《卧虎藏龙》拍摄地有明显的石碑提示，如果是影迷的话可以拍照打卡留念。'
+                        text: '这里是《卧虎藏龙》的取景地之一，电影中李慕白和玉娇龙竹林穿梭打斗的场面让人印象深刻。引起武侠迷畅想联翩的同时，大竹海作为一个天然氧吧，也适合携全家老少来此登山洗肺，获取内心的宁静。《卧虎藏龙》拍摄地有明显的石碑提示，如果是影迷的话可以拍照打卡留念。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/anji/10.png')
@@ -458,7 +452,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '门观竹海万亩绿，窗含“天荒”江南雪',
+                    describe: '门观竹海万亩绿，<br>窗含“天荒”江南雪',
                     info: [{
                         type: 0,
                         text: '欢墅·竹博园精品度假别墅'
@@ -473,7 +467,7 @@ const state = {
                         text: require('@/assets/images/city/anji/22.png')
                     },{
                         type: 1,
-                        text: '门观竹海万亩绿，窗含“天荒”江南雪，让你真正摆脱城市的喧嚣。 超大厨房，让你度过欢乐的料理时光；独立棋牌，和小伙伴一起欢聚游戏人生。'
+                        text: '门观竹海万亩绿，窗含“天荒”江南雪，让你真正摆脱城市的喧嚣。 超大厨房，让你度过欢乐的料理时光；独立棋牌室，和小伙伴一起欢聚游戏人生。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/anji/23.png')
@@ -493,7 +487,7 @@ const state = {
                 label: '长兴',
                 cover: require('@/assets/images/cityImg/changxing.png'),
                 titleCover: require('@/assets/images/cityTitle/changxing.png'),
-                describe: '苏浙皖之交界——湖州长兴',
+                describe: '苏浙皖之交界——<br>湖州长兴',
                 info: [{
                     type: 1,
                     text: '这里是躲开人山人海，看山看水的好去处。不仅有古朴典雅长亭瓦房，还有多种多样的美食。乘船穿行于依山傍水的中式建筑之间，飘飘乎如遗世独立，羽化而登仙，仿佛是在与一位隐逸世外高人促膝长谈。'
@@ -539,7 +533,7 @@ const state = {
                     }]
                 }],
                 eat: [{
-                    describe: '感受江浙人户的烟火人间',
+                    describe: '感受江浙人家的烟火人间',
                     info: [{
                         type: 1,
                         text: '桃乐乐在长兴！作为长兴地标性的奶茶，桃乐乐是到长兴必打卡的奶茶店。推荐主打招牌妃夕妍雪，颜值与味道同时在线，杯底有厚厚一层桃肉打底，粉粉嫩嫩的草莓，冰上挤满奶油，然后撒上草莓干，冰冰甜甜。'
@@ -588,7 +582,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '远离城市喧嚣，抛开尘世纷扰，还来一份宁静',
+                    describe: '远离城市喧嚣，抛开尘世纷扰，<br>还来一份宁静',
                     info: [{
                         type: 0,
                         text: '欢墅·度假别墅（长兴南山雅居）'
@@ -623,7 +617,7 @@ const state = {
                 label: '宁波',
                 cover: require('@/assets/images/cityImg/ningbo.png'),
                 titleCover: require('@/assets/images/cityTitle/ningbo.png'),
-                describe: '海港水乡，丝路上的的东方之星',
+                describe: '海港水乡，丝路上的东方之星',
                 info: [{
                     type: 1,
                     text: '“东方大港”宁波，是具有7000年历史的“河姆渡文化”的发祥地，宁波文人荟萃，地方特色学派汇聚，如四明学派、阳明学派等，人才辈出有王守仁、朱舜水、黄宗羲等一批文化名人。古老文明为宁波积累了深厚的历史底蕴,现代文明使宁波充溢着无限的活力和生机。宁波人正是在古代文明与现代文明的交融中, 不断铸就着新的辉煌。'
@@ -638,7 +632,7 @@ const state = {
                     describe: '历史遗迹与都市之美的“华美乐章”',
                     info: [{
                         type: 1,
-                        text: '宁波是《徐霞客游记》的起始地，所以这里的风景人文也非常丰富，玩点众多，有：月湖、天一阁、老外滩，东钱湖、雪窦山、蒋氏故里等很多好玩的地方。宁波在不断的发展过程中，承古启新，在继承古人为我们留下的美的同时，不断为自身增填人文之美。'
+                        text: '宁波是《徐霞客游记》的起始地，所以这里的风景人文也非常丰富，玩点众多，有：月湖、天一阁、老外滩，东钱湖、雪窦山、蒋氏故里等很多好玩的地方。宁波在不断的发展过程中，承古启新，在继承古人为我们留下的美的同时，不断为自身增添人文之美。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/ningbo/2.png')
@@ -647,10 +641,10 @@ const state = {
                         text: '小红书用户@墅家'
                     }]
                 },{
-                    describe: '"西子风韵、太湖气魄"，浙江第一大湖——东钱湖',
+                    describe: '"西子风韵、太湖气魄"，<br>浙江第一大湖——东钱湖',
                     info: [{
                         type: 1,
-                        text: '东钱湖风光旖旎，身临其境，令人心旷神怡，宠辱皆忘。而这里地灵人杰，也有其悠久的历史、绚丽的文化，也是个人文荟萃之地。雅戈尔动物园、小普陀、南宋石刻公园等区内景点，让人频频驻足。'
+                        text: '东钱湖风光旖旎，身临其境，令人心旷神怡，宠辱皆忘。这里地灵人杰，不仅有悠久的历史、绚丽的文化，同时也是个人文荟萃之地。雅戈尔动物园、小普陀、南宋石刻公园等区内景点，让人频频驻足。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/ningbo/10.png')
@@ -659,7 +653,7 @@ const state = {
                         text: '小红书用户@请叫我闲大人'
                     }]
                 },{
-                    describe: '探索环湖宝藏景点，人文与自然的“交响曲”',
+                    describe: '探索环湖宝藏景点，<br>人文与自然的“交响曲”',
                     info: [{
                         type: 1,
                         text: '东钱湖风光旖旎，身临其境，令人心旷神怡，宠辱皆忘。而这里地灵人杰，也有其悠久的历史、绚丽的文化，也是个人文荟萃之地。雅戈尔动物园、小普陀、南宋石刻公园等区内景点，让人频频驻足。'
@@ -671,7 +665,7 @@ const state = {
                         text: '东钱湖旅游门户网'
                     },{
                         type: 1,
-                        text: '“北有秦陵兵马俑，南有南宋石刻群”,在中国漫长的石刻史上，偏隅江南的宋王朝少有此项艺术的留存，而东钱湖的南宋石刻群恰恰因弥合了这一历史断层而显出几分遗世独立的珍贵，它的恢弘精美在中国实属唯一，人们称它为“江南兵马俑”。'
+                        text: '“北有秦陵兵马俑，南有南宋石刻群”,在中国漫长的石刻史上，偏隅江南的宋王朝少有此项艺术的留存，而东钱湖的南宋石刻群恰恰因弥补了这一历史断层而显出几分遗世独立的珍贵，它的恢弘精美在中国实属唯一，人们称它为“江南兵马俑”。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/ningbo/12.png')
@@ -681,15 +675,6 @@ const state = {
                     },{
                         type: 1,
                         text: '湖心堤如卧波长虹，将东钱湖分为两半，并串联起钱堤烟波、陶公钓矶、清风香桂、澄湖明月、二灵掠影、霞屿锁岚、补陀洞天、山僧呼舶等湖心八景。佛语呢喃中，感受其八百年古韵。'
-                    },{
-                        type: 2,
-                        text: require('@/assets/images/city/ningbo/13.png')
-                    },{
-                        type: 3,
-                        text: '东钱湖旅游门户网'
-                    },{
-                        type: 1,
-                        text: '全球300多种近万头珍稀动物，可爱的金丝猴，威武的东北虎和非洲师，更有中华国宝大熊猫，快带上你的娃，与这些动物们一起走进自然地怀抱。'
                     },{
                         type: 4,
                         text: '电话：(0574)88373737'
@@ -717,7 +702,7 @@ const state = {
                         text: '小红书用户@milon香'
                     }]
                 },{
-                    describe: '美食天堂，鱼虾盛宴，钱湖四宝等你品尝',
+                    describe: '美食天堂，鱼虾盛宴，<br>钱湖四宝等你品尝',
                     info: [{
                         type: 1,
                         text: '东钱湖面积广阔，碧波下孕育着无数鱼虾，在人们对美食享受的极致追求中，人们逐渐将鱼的吃法发挥到极致，演化出“钱湖四宝”'
@@ -762,7 +747,7 @@ const state = {
                         text: '【城宿·清风徐来】鄞州中心地段、 落地窗投影仪2人居|紧邻鄞州万达'
                     },{
                         type: 1,
-                        text: '推荐亮点：鄞州中心地段交通便利，宽敞舒适，购物便利，吃喝玩乐应有尽有，精选舒适床品，设施齐备，精心布置。'
+                        text: '推荐亮点：鄞州中心地段交通便利，宽敞舒适，购物便捷，吃喝玩乐应有尽有，精选舒适床品，设施齐备，精心布置。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/ningbo/5.png')
@@ -786,7 +771,7 @@ const state = {
                         text: require('@/assets/images/city/ningbo/8.png')
                     },{
                         type: 1,
-                        text: '设施齐备，配备吗厨房，便利的日常生活，你值得拥有。'
+                        text: '设施齐备，配备日常生活必需用品。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/ningbo/9.png')
@@ -800,10 +785,16 @@ const state = {
                 label: '温州',
                 cover: require('@/assets/images/cityImg/wenzhou.png'),
                 titleCover: require('@/assets/images/cityTitle/wenzhou.png'),
-                describe: '“东瓯山水甲江南”——温州美景千万别错过',
+                describe: '“东瓯山水甲江南”——<br>温州美景千万别错过',
                 info: [{
                     type: 1,
                     text: '温州市，简称“温”或“瓯”，是浙江省地级市，也是第一批改革开放的城市之一。温州钟灵毓秀，人杰地灵，历代名人辈出，旅游资源丰富，拥有雁荡山、楠溪江、百丈漈3个国家级风景名胜区和乌岩岭、南麂岛2个国家级自然保护区，还有6个省级风景区，8个市级风景区。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/wenzhou/13.png')
+                },{
+                    type: 3,
+                    text: '网络'
                 }],
                 play: [{
                     describe: '人文与自然的共舞',
@@ -840,7 +831,7 @@ const state = {
                     }]
                 }],
                 eat: [{
-                    describe: '文成县美食小吃，舌尖上的文成县',
+                    describe: '文成县美食小吃，<br>舌尖上的文成县',
                     info: [{
                         type: 2,
                         text: require('@/assets/images/city/wenzhou/4.png')
@@ -882,7 +873,7 @@ const state = {
                         text: '斯维登·嘉南美地度假公寓'
                     },{
                         type: 1,
-                        text: '推荐亮点：交通便利，景点颇多，高山天然净氧，提供烧烤器材，配备私家花园，设备齐全，智能安保果岭高尔夫，儿童童游乐区，高端周到，应有尽有。'
+                        text: '推荐亮点：交通便利，景点颇多，高山天然净氧，提供烧烤器材，配备私家花园，设备齐全，智能安保果岭高尔夫，儿童游乐区，高端周到，应有尽有。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/wenzhou/7.png')
@@ -903,7 +894,7 @@ const state = {
                         text: require('@/assets/images/city/wenzhou/10.png')
                     },{
                         type: 1,
-                        text: '套房、标间、大床房，多种房型任你选择。柔软，精挑床品，职位让你一夜安眠。'
+                        text: '套房、标间、大床房，多种房型任你选择。柔软，精挑床品，只为让你一夜安眠。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/wenzhou/11.png')
@@ -938,7 +929,7 @@ const state = {
                     describe: '南湖风光，红色传承',
                     info: [{
                         type: 1,
-                        text: '提到嘉兴，就不得不说一下南湖，中共一大会议议址、开天辟地新征程的诞生地就在这浙江省三大名湖之一的嘉兴了。“一大”纪念船、烟雨楼、伍相祠……'
+                        text: '提到嘉兴，就不得不说一下南湖，中共一大会议地址、开天辟地新征程的诞生地就在这浙江省三大名湖之一的嘉兴了。“一大”纪念船、烟雨楼、伍相祠……'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/jiaxing/2.png'),
@@ -969,7 +960,7 @@ const state = {
                         text: '小红书@稻草人旅行',
                     }, {
                         type: 1,
-                        text: '打卡地推荐越秀集市，让你感受最本地的人间烟火气，除了本地传统的特色小吃之外，更有从南到北各地小吃包罗万象。'
+                        text: '打卡地推荐越秀集市，让你感受最地道的人间烟火气，除了本地传统的特色小吃之外，更有从南到北各地小吃，包罗万象。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/jiaxing/5.png'),
@@ -993,7 +984,7 @@ const state = {
                         text: '斯维登-巴黎海琴公馆度假公寓'
                     }, {
                         type: 1,
-                        text: '地处市中心核心商圈，紧邻海盐大剧院、世界主题公园，游览各的事建筑；周边餐饮丰富，服务贴心周到。'
+                        text: '地处市中心核心商圈，紧邻海盐大剧院、世界主题公园，游览各地建筑；周边餐饮丰富，服务贴心周到。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/jiaxing/6.png'),
@@ -1002,7 +993,7 @@ const state = {
                         text: require('@/assets/images/city/jiaxing/7.png'),
                     }, {
                         type: 1,
-                        text: '房间宽敞、明亮舒适，更有无敌海景房适合情侣浪漫出行'
+                        text: '房间宽敞、明亮舒适，更有无敌海景房适合情侣浪漫出行。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/jiaxing/8.png'),
@@ -1016,7 +1007,7 @@ const state = {
                 label: '莫干山',
                 cover: require('@/assets/images/cityImg/moganshan.png'),
                 titleCover: require('@/assets/images/cityTitle/moganshan.png'),
-                describe: '天然避暑胜地、夏日“清凉世界”',
+                describe: '天然避暑胜地、<br>夏日“清凉世界”',
                 info: [{
                     type: 1,
                     text: '莫干山，一个命名充满传奇色彩的南方避暑胜地，相传因吴王阖闾派干将、莫邪在此铸成举世无双的雌雄双剑而得名。地处浙江省湖州市德清县，山峦连绵起伏，空气清新，植被覆盖率有92%之高，其中主峰塔山海拔758米，以竹、泉、云和清、凉、绿、静著称，置身其中便有“清风迎面来，溽暑随步失”之感。'
@@ -1043,7 +1034,7 @@ const state = {
                         text: '小红书@莫干山蕨宿温泉美宿',
                     }]
                 }, {
-                    describe: '与夏日精灵的约会——萤火虫基地',
+                    describe: '与夏日精灵的约会——<br>萤火虫基地',
                     info: [{
                         type: 1,
                         text: '到莫干山避暑游玩，除了景区美不胜收之外，在仙潭村碧坞龙潭的山谷里或风景区筏头乡的萤火虫基地里，你都能看到这些美丽的生灵舞动着夏日的旋律。心存敬畏，用心感受大自然的浪漫与美。'
@@ -1132,7 +1123,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '离尘不离景，拥抱山水之美',
+                    describe: '离尘不离景，<br>拥抱山水之美',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_2719.png'),
                     hotelId: '2719',
                     info: [{
@@ -1180,7 +1171,7 @@ const state = {
                 describe: '智者乐水，仁者乐山',
                 info: [{
                     type: 1,
-                    text: '乐山，古称嘉州，是四川省辖下的一个地级市，历史上属古蜀国，有“海棠香国”的美誉，有峨眉山，乐山大佛等著名景点，还有钵钵鸡、翘脚牛肉等美食，且距离成都近，交通便利，吸引了众多旅客。'
+                    text: '乐山，古称嘉州，是四川省辖下的一个地级市，历史上属古蜀国，有“海棠香国”的美誉。有峨眉山，乐山大佛等著名景点，还有钵钵鸡、翘脚牛肉等美食，且距离成都近，交通便利，因此吸引了众多旅客。'
                 }, {
                     type: 2,
                     text: require('@/assets/images/city/leshan/1.png')
@@ -1189,10 +1180,10 @@ const state = {
                     text: '百度百科'
                 }],
                 play: [{
-                    describe: '除了乐山大佛，你对乐山一无所知',
+                    describe: '除了乐山大佛，<br>你对乐山一无所知',
                     info: [{
                         type: 1,
-                        text: '乐山人杰地灵，名胜古迹更是数不胜数，大部分人说起乐山想到的都是乐山大佛，但其实峨眉山，嘉阳小火车，黑竹沟罗城古镇等都来自乐山，这座宝藏城市藏着太多你不知道的惊喜。'
+                        text: '乐山人杰地灵，名胜古迹更是数不胜数，大部分人说起乐山想到的都是乐山大佛，但其实峨眉山、嘉阳小火车和黑竹沟罗城古镇等都来自乐山，总之这座宝藏城市藏着太多你不知道的惊喜。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/leshan/2.png')
@@ -1202,7 +1193,7 @@ const state = {
                     describe: '说不尽的美食',
                     info: [{
                         type: 1,
-                        text: '在四川，可以说没有人不知道乐山的美食，是吃货们的天堂，鲜香入味的翘脚牛肉，辣却让人欲罢不能的钵钵鸡还有远近闻名的豆腐脑与独特的乐山话组成了这座城市独特的魅力。'
+                        text: '在四川，可以说没有人不知道乐山的美食是吃货们的天堂。鲜香入味的翘脚牛肉，辣却让人欲罢不能的钵钵鸡，还有远近闻名的豆腐脑与独特的乐山话组成了这座城市独特的魅力。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/leshan/3.png')
@@ -1237,7 +1228,7 @@ const state = {
                     text: require('@/assets/images/city/dujiangyan/1.png')
                 }],
                 play: [{
-                    describe: '岷江遥从天际来，神功凿破古离堆',
+                    describe: '岷江遥从天际来，<br>神功凿破古离堆',
                     info: [{
                         type: 2,
                         text: require('@/assets/images/city/dujiangyan/2.png')
@@ -1250,7 +1241,7 @@ const state = {
                     describe: '被低估的美食聚集地',
                     info: [{
                         type: 1,
-                        text: '麻辣兔头被称为都江堰的名片，资格的油辣子伴着酥香的花生粒一起满满裹住兔头，一口下去鲜香充满了整个口腔。红糖醪糟加蛋还是记忆中的味道，软糯的叶儿粑一口一个，都是令人垂涎三尺的美食。'
+                        text: '麻辣兔头被称为都江堰的名片，油辣子伴着酥香的花生粒一起满满裹住兔头，一口下去鲜香充满了整个口腔。红糖醪糟加蛋还是记忆中的味道，软糯的叶儿粑一口一个，都是令人垂涎三尺的美食。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/dujiangyan/3.png')
@@ -1273,10 +1264,10 @@ const state = {
                 label: '阆中',
                 cover: require('@/assets/images/cityImg/langzhong.png'),
                 titleCover: require('@/assets/images/cityTitle/langzhong.png'),
-                describe: '传说中的阆苑仙境——阆中古城',
+                describe: '传说中的阆苑仙境——<br>阆中古城',
                 info: [{
                     type: 1,
-                    text: '四川阆中，这座有着 2300 多年历史的千年古城，比起赫赫有名的丽江、平遥、歙县，多少有些羞涩，但它是和这三座城市一起被批准为历史文化名城的，为名城中的四小花旦之一。它就像有些花含苞时间会长一些，但一旦绽放将带给人惊艳。'
+                    text: '四川阆中，这座有着 2300 多年历史的千年古城，比起赫赫有名的丽江、平遥和歙县，多少有些羞涩，但它是和这三座城市一起被批准为历史文化名城的，为名城中的四小花旦之一。它就像有些花含苞时间会长一些，可一旦绽放便能惊艳众人。'
                 }, {
                     type: 2,
                     text: require('@/assets/images/city/langzhong/1.png')
@@ -1298,7 +1289,7 @@ const state = {
                     }]
                 }],
                 eat: [{
-                    describe: '用最实惠的价格，吃最地道的美味',
+                    describe: '用最实惠的价格，<br>吃最地道的美味',
                     info: [{
                         type: 1,
                         text: '去古城一定要吃小吃，锅盔、凉粉、张飞牛肉煎饼物美价廉，是古城独特的风味。'
@@ -1548,7 +1539,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '身处繁华地段，感受不夜城的热闹非凡',
+                    describe: '身处繁华地段，<br>感受不夜城的热闹非凡',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_152.png'),
                     hotelId: '152',
                     info: [{
@@ -1556,7 +1547,7 @@ const state = {
                         text: '斯维登.解放碑协信公馆'
                     },{
                         type: 1,
-                        text: '推荐亮点：美式轻奢装修，超大居住空间，步行10分钟，打卡宫崎骏笔下千与千寻的场景洪崖洞，驾车20分钟打卡网红轻轨站，地道的火锅、小面、江湖菜齐聚楼下，是饕餮的狂欢，盘山而上1.5公里，到达解放碑。'
+                        text: '推荐亮点：美式轻奢装修，超大居住空间，步行10分钟，打卡宫崎骏笔下千与千寻的场景——洪崖洞；驾车20分钟打卡网红轻轨站，地道的火锅、小面、江湖菜齐聚楼下，是饕餮的狂欢；盘山而上1.5公里，到达解放碑。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/chongqing/10.png')
@@ -1624,7 +1615,7 @@ const state = {
                         text: '成都这座包容性极强的城市不仅有着众多文化古迹，也是年轻人的好去处，无论是339还是九眼桥、兰桂坊，各种各样的酒吧、清吧造就了成都丰富的夜生活。白天可以去人民公园喝茶聊天，夜晚去兰桂坊喝酒社交，构成了成都独特的文化。'
                     }]
                 },{
-                    describe: '时尚潮流圣地，GET明星同款',
+                    describe: '时尚潮流圣地，<br>GET明星同款',
                     info: [{
                         type: 1,
                         text: 'IFS是成都最繁荣的商业购物中心，这里高楼林立，时尚商铺遍地开花，有许多明星开的店铺，装修风格独特，适合购物打卡。'
@@ -1704,7 +1695,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '高档住宿环境，轻奢主题公寓',
+                    describe: '高档住宿环境，<br>轻奢主题公寓',
                     qrCodeImg: '',
                     hotelId: '',
                     info: [{
@@ -1729,7 +1720,7 @@ const state = {
                 label: '青城山',
                 cover: require('@/assets/images/cityImg/qingchengshan.png'),
                 titleCover: require('@/assets/images/cityTitle/qingchengshan.png'),
-                describe: '拜水都江堰 青城天下幽',
+                describe: '拜水都江堰<br> 青城天下幽',
                 info: [{
                     type: 1,
                     text: '作为国家5A级景区，青城山靠岷山雪岭，面向川西平原，群峰环绕，状若城廓；林深树密，四季常绿；丹梯千级，曲径通幽。全山以幽洁取胜，与剑门之险，峨眉之秀，夔门之雄齐名，享有“青城天下幽”的美名。'
@@ -1738,7 +1729,7 @@ const state = {
                     text: require('@/assets/images/city/qingchengshan/1.png')
                 }],
                 play: [{
-                    describe: '问道青城山，漫步云游处',
+                    describe: '问道青城山，<br>漫步云游处',
                     info: [{
                         type: 1,
                         text: '青城山因其四季常青，满目青翠，诸峰环峙，状若城廓而得名，素有"青城天下幽"之美誉，与剑门之险、峨嵋之秀、夔门之雄齐名。'
@@ -1778,7 +1769,7 @@ const state = {
                         text: require('@/assets/images/city/qingchengshan/5.png')
                     }, {
                         type: 1,
-                        text: '推荐店铺张醪糟、青城甲，还有许多家店也值得一试：陈记爆炸土豆、老号尤兔头、蜀香烧烤等都是必吃的推荐。'
+                        text: '推荐店铺张醪糟、青城甲，还有许多家店也值得一试：陈记爆炸土豆、老号尤兔头、蜀香烧烤等都是必吃的店铺。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/qingchengshan/6.png')
@@ -1794,7 +1785,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '归隐赤城仙山，细品时光流转',
+                    describe: '归隐赤城仙山，<br>细品时光流转',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_2341.png'),
                     hotelId: '2341',
                     info: [{
@@ -1814,7 +1805,7 @@ const state = {
                         text: require('@/assets/images/city/qingchengshan/8.png')
                     }, {
                         type: 1,
-                        text: '每套欢墅还配有私人管家为供细致舒心的服务，让你的出行更加安逸放心。'
+                        text: '每套欢墅还配有私人管家提供细致舒心的服务，让你的出行更加安逸放心。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/qingchengshan/9.png')
@@ -1825,7 +1816,7 @@ const state = {
                 label: '峨眉山',
                 cover: require('@/assets/images/cityImg/emeishan.png'),
                 titleCover: require('@/assets/images/cityTitle/emeishan.png'),
-                describe: '峨眉山月半轮秋，影入平羌江水流',
+                describe: '峨眉山月半轮秋，<br>影入平羌江水流',
                 info: [{
                     type: 1,
                     text: '峨眉山是中国佛教四大名山之一，是世界文化与自然双遗产，峨眉山原有大小寺院百余处，几经兴废，现存主要寺院有万年寺，报国寺，伏虎寺，善觉寺，光相寺，吸引了众多游客。'
@@ -1837,7 +1828,7 @@ const state = {
                     text: '小红书用户@荔枝爱吃蒜'
                 }],
                 play: [{
-                    describe: '会当凌绝顶，一览众山小',
+                    describe: '会当凌绝顶，<br>一览众山小',
                     info: [{
                         type: 1,
                         text: '趁着早上动身，去看树林中熹微的晨光，峨眉山刀削般的山岩，丰茂的植被，冲天的大树还有绿得发黑的竹林。看到金顶的云海、日光、佛光，看着金光闪闪的庙宇感受到“会当凌绝顶，一览众山小”的豪壮感。'
@@ -1902,7 +1893,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '涓涓温泉入户，秀丽峨眉咫尺',
+                    describe: '涓涓温泉入户，<br>秀丽峨眉咫尺',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_724.png'),
                     hotelId: '724',
                     info: [{
@@ -1941,7 +1932,7 @@ const state = {
                 label: '盐城东台黄海森林',
                 cover: require('@/assets/images/cityImg/huanghai.png'),
                 titleCover: require('@/assets/images/cityTitle/huanghaisenlin.png'),
-                describe: '造访天然氧吧——东台黄海森林公园',
+                describe: '造访天然氧吧——<br>东台黄海森林公园',
                 info: [{
                     type: 1,
                     text: '黄海森林公园是江苏沿海唯一的一座规模较大的生态林园，总面积3000公顷，有林面积2500公顷。'
@@ -1956,7 +1947,7 @@ const state = {
                     describe: '森呼吸·林距离',
                     info: [{
                         type: 1,
-                        text: '全境地势平坦，四季分明，森林覆盖率80%以上，是一块生态净土、一块观光旅游休闲胜地、一块人与自然融合的“绿色氧吧”。'
+                        text: '全境地势平坦，四季分明，森林覆盖率80%以上，不仅是一块生态净土、观光旅游休闲胜地，还是人与自然融合的“绿色氧吧”。'
                     },{
                         type: 1,
                         text: '其间景色独特，交通便捷，身临其境犹如置身于“绿色的海洋”，人工林分林相整齐，景观优美，四季常绿，林分中水杉林，有较高观赏性。'
@@ -1996,7 +1987,7 @@ const state = {
                         text: '网络'
                     },{
                         type: 1,
-                        text: '游森林公园途中，可顺便到附近这家青青家常菜馆吃个午饭。这边家常菜馆比较难找，所幸附近还有这家。若是不想吃西式快餐或是想体验本地味道的不妨一试。'
+                        text: '游森林公园途中，可顺便到附近这家青青家常菜馆吃个午饭。这边家常菜馆比较难找，所幸附近还有这家，若是不想吃西式快餐或是想体验本地味道的游客不妨一试。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/huanghaisenlin/5.png')
@@ -2018,7 +2009,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '环抱森林，仰望星空，感受诗意的栖居',
+                    describe: '环抱森林，仰望星空，<br>感受诗意的栖居',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_16971.png'),
                     hotelId: '16971',
                     info: [{
@@ -2055,7 +2046,7 @@ const state = {
                 label: '泰州溱湖',
                 cover: require('@/assets/images/cityImg/qinhu.png'),
                 titleCover: require('@/assets/images/cityTitle/qinhu.png'),
-                describe: '感受大自然的脉搏——姜堰区溱湖国家湿地公园',
+                describe: '感受大自然的脉搏——<br>姜堰区溱湖国家湿地公园',
                 info: [{
                     type: 1,
                     text: '溱湖国家湿地公园自然资源优越，生物类型多样，有国家一类保护动物丹顶鹤、麋鹿，国家二类保护动物白天鹅、白枕鹤、白鹇等等。'
@@ -2067,7 +2058,7 @@ const state = {
                     text: '小红书用户@了了'
                 }],
                 play: [{
-                    describe: '从海洋世界到湿地花海，精彩看不停！',
+                    describe: '从海洋世界到湿地花海，<br>精彩看不停！',
                     info: [{
                         type: 1,
                         text: '一进景区大门就是溱湖海洋世界，海洋馆不是很大，有各种水母缸加上各色的灯光，拍出的照片也很美，上午会有一场秀，带小朋友的可以看一看。'
@@ -2104,10 +2095,10 @@ const state = {
                     }]
                 }],
                 eat: [{
-                    describe: '古镇觅美食——溱潼古镇小吃街',
+                    describe: '古镇觅美食——<br>溱潼古镇小吃街',
                     info: [{
                         type: 1,
-                        text: '溱湖湿地旁边就是溱潼古镇，古色古香的小巷中，也藏着一整条街的小吃街，吃货可不能错过呀！黄桥烧饼、桂花米糕、靖江肉脯、鱼圆鱼丸……街头小吃，香气四溢，勾人馋虫。'
+                        text: '溱湖湿地旁边就是溱潼古镇，古色古香的小巷中，也藏着一整条的小吃街，吃货可不能错过呀！黄桥烧饼、桂花米糕、靖江肉脯、鱼圆鱼丸……街头小吃，香气四溢，勾人馋虫。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/qinhu/6.png')
@@ -2141,7 +2132,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '荡舟在烟波浩渺之上，沉醉于世外桃源之中',
+                    describe: '荡舟在烟波浩渺之上，<br>沉醉于世外桃源之中',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_372.png'),
                     hotelId: '372',
                     info: [{
@@ -2155,7 +2146,7 @@ const state = {
                         text: require('@/assets/images/city/qinhu/11.png')
                     },{
                         type: 1,
-                        text: '别墅内独立娱乐设备KTV点歌欢唱系统，棋牌室，茶室，露天烧烤，烘培室，烘托出特定的居住风格。'
+                        text: '别墅内配备独立娱乐设备KTV点歌欢唱系统，棋牌室，茶室，露天烧烤，烘培室，烘托出特定的居住风格。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/qinhu/12.png')
@@ -2167,7 +2158,7 @@ const state = {
                         text: require('@/assets/images/city/qinhu/13.png')
                     },{
                         type: 1,
-                        text: '房间大气宽敞，携家入住好选择'
+                        text: '房间大气宽敞，是携带家人入住的最佳选择'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/qinhu/14.png')
@@ -2178,13 +2169,19 @@ const state = {
                 label: '无锡拈花湾',
                 cover: require('@/assets/images/cityImg/nianhuawan.png'),
                 titleCover: require('@/assets/images/cityTitle/nianhuawan.png'),
-                describe: '青山绿水间的古佛胜境——拈花湾古镇',
+                describe: '青山绿水间的古佛胜境——<br>拈花湾古镇',
                 info: [{
                     type: 1,
                     text: '沾花湾古镇是位于无锡市区外的一处禅意胜地，其中的没一家客栈都是一种修行，一花一世界，一叶一菩提，禅意体验，超凡享受，让心灵度个假。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/nianhuawan/12.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@江南的猫先森'
                 }],
                 play: [{
-                    describe: '让你的心平静下来，走进拈花小镇',
+                    describe: '让你的心平静下来，<br>走进拈花小镇',
                     info: [{
                         type: 2,
                         text: require('@/assets/images/city/nianhuawan/1.png')
@@ -2193,7 +2190,7 @@ const state = {
                         text: '小红书用户@大菊在路上'
                     }, {
                         type: 1,
-                        text: '唐风建筑群，每一栋建筑都是一种文化的体现，没进一个院落，都是对禅意的领悟。夜间灯火绚烂丝毫不逊色于都市灯火。这样的地方，最能让人平心静气。穿越时空，梦回大唐。'
+                        text: '唐风建筑群，每一栋建筑都是一种文化的体现，每进一个院落，都是对禅意的领悟。夜间灯火绚烂丝毫不逊色于都市灯火。这样的地方，最能让人平心静气。穿越时空，梦回大唐。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/nianhuawan/2.png')
@@ -2221,7 +2218,7 @@ const state = {
                     }]
                 }],
                 eat: [{
-                    describe: '特色禅食与无锡美食的双重体验，味觉享受不可错过',
+                    describe: '特色禅食与无锡美食的双重体验，<br>味觉享受不可错过',
                     info: [{
                         type: 1,
                         text: '特色禅食，无锡素面为拈花湾景区不容错过的两大素食佳肴。'
@@ -2287,13 +2284,13 @@ const state = {
                         text: require('@/assets/images/city/nianhuawan/9.png')
                     },{
                         type: 1,
-                        text: '公寓内家具精心布置，高端典雅，色调事宜，让人体验价一般的感觉的感觉，奢华的享受，超值的价格，堪称圣境首选。'
+                        text: '公寓内家具精心布置，高端典雅，色调适宜，让人体验家一般的感觉，奢华的享受，超值的价格，堪称圣境首选。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/nianhuawan/10.png')
                     },{
                         type: 1,
-                        text: '全套家具，拎包入住。安全保障全面升级，12个安心触电为您服务。'
+                        text: '全套家具，拎包入住。安全保障全面升级，12个安心触点为您服务。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/nianhuawan/11.png')
@@ -2307,7 +2304,7 @@ const state = {
                 label: '阳山',
                 cover: require('@/assets/images/cityImg/yangshan.png'),
                 titleCover: require('@/assets/images/cityTitle/yangshan.png'),
-                describe: '江南一绝，走进真正的世外桃源',
+                describe: '江南一绝，<br>走进真正的世外桃源',
                 info: [{
                     type: 1,
                     text: '阳山古称“安阳山”。距江南旅游名城无锡市15公里。四座山丘雄伟壮观，林壑优美。阳山以万亩桃花、亿年古火山、千年古刹著称于世。'
@@ -2386,13 +2383,13 @@ const state = {
                         text: '欢墅·度假别墅（无锡阳山拾房桃溪）'
                     }, {
                         type: 1,
-                        text: '推荐亮点：交通便利，文化氛围浓郁，引领田园综合时尚潮流，设备齐全，风格典雅，布置精心。提供侥幸，行李寄存，早餐服务，贴心周到。'
+                        text: '推荐亮点：交通便利，文化氛围浓郁，引领田园综合时尚潮流，设备齐全，风格典雅，布置精心。提供行李寄存，早餐服务，贴心周到。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/yangshan/6.png')
                     }, {
                         type: 1,
-                        text: '住区内处处是美景，超高绿化，化纤扑鼻。私家花园，轻奢享受。'
+                        text: '住区内处处是美景，超高绿化，花香扑鼻。私家花园，轻奢享受。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/yangshan/7.png')
@@ -2436,10 +2433,10 @@ const state = {
                     text: '小红书用户@齐小七'
                 }],
                 play: [{
-                    describe: '与天堂齐名的存在，绝美温柔乡',
+                    describe: '与天堂齐名的存在，<br>绝美温柔乡',
                     info: [{
                         type: 1,
-                        text: '苏州东傍上海，南接浙江，西抱太湖，北依长江。依山傍水，如诗画般的烟雨江南在苏州得到完美的的体现。江南水乡古镇的建筑风格，大量的民居古镇，反应淳朴的生活气息，百姓安逸的生活让人向往。苏州人杰地灵，周庄古镇、拙政园、大阳山自然公园等著名景点。'
+                        text: '苏州东傍上海，南接浙江，西抱太湖，北依长江。依山傍水，如诗画般的烟雨江南在苏州得到完美的体现。江南水乡古镇的建筑风格，大量的民居古镇，反应淳朴的生活气息，百姓安逸的生活让人向往。苏州人杰地灵，有周庄古镇、拙政园、大阳山自然公园等著名景点。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/suzhou/3.png')
@@ -2458,7 +2455,7 @@ const state = {
                     }],
                 }],
                 eat: [{
-                    describe: '美景配佳肴，人生难得几逍遥',
+                    describe: '美景配佳肴，<br>人生难得几逍遥',
                     info: [{
                         type: 1,
                         text: '苏州，吴文化发祥地，又称姑苏，是国家历史文化名城和风景旅游城市，苏州不仅风景优美,还有丰富多样的特色小吃，酱汁肉、松鼠桂鱼、哑巴生煎等一系列美食，让人难忘江南的味道。'
@@ -2494,24 +2491,18 @@ const state = {
                 }, {
                     type: 2,
                     text: require('@/assets/images/city/liyang/1.png')
-                }, {
-                    type: 3,
-                    text: '小红书用户@大白杨Komi'
-                }, {
+                },{
                     type: 2,
                     text: require('@/assets/images/city/liyang/2.png')
-                }, {
-                    type: 3,
-                    text: '小红书用户@蟹黄包'
-                }, {
+                },{
                     type: 2,
                     text: require('@/assets/images/city/liyang/3.png')
-                }, {
+                },{
                     type: 3,
-                    text: '小红书用户@简直永无止境啊'
+                    text: '小红书用户@三恒系统黄顺珍'
                 }],
                 play: [{
-                    describe: '花、竹之海，自驾游宝藏胜地——曹山度假景区',
+                    describe: '花、竹之海，<br>自驾游宝藏胜地——曹山度假景区',
                     info: [{
                         type: 2,
                         text: require('@/assets/images/city/liyang/4.png')
@@ -2520,7 +2511,7 @@ const state = {
                         text: '小红书用户@垂钓四海娱乐'
                     }, {
                         type: 1,
-                        text: '曹山花海，无尽的争相斗艳，尽收眼底，诗人动容。呼吸花田果园的甜蜜气息，与大自然融为一体。'
+                        text: '曹山花海，无尽的争相斗艳，尽收眼底，使人动容。呼吸花田果园的甜蜜气息，与大自然融为一体。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/liyang/5.png')
@@ -2529,7 +2520,7 @@ const state = {
                         text: '小红书用户@垂钓四海娱乐'
                     }, {
                         type: 1,
-                        text: '天目湖山水园，观一湖而知江南，碧水蓝天，尽享山水，江南明珠，碧水仙境。带上自己的娃，来一场别开生面的畔之旅。'
+                        text: '天目湖山水园，观一湖而知江南，碧水蓝天，尽享山水，江南明珠，碧水仙境。带上自己的娃，来一场别开生面的湖畔之旅。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/liyang/6.png')
@@ -2538,7 +2529,7 @@ const state = {
                         text: '小红书用户@哎呦小鹿'
                     }, {
                         type: 1,
-                        text: '更有南山竹海与御水温泉，视觉的享受，加上温泉的滋养，让人，仿佛全身都得到完全的放松。与孩子一起享受竹林漫步的感觉。'
+                        text: '更有南山竹海与御水温泉，视觉的享受，加上温泉的滋养，让人仿佛全身都得到完全的放松。与孩子一起享受竹林漫步的感觉。'
                     },{
                         type: 4,
                         text: '电话：曹山游客中心0519-87731118'
@@ -2611,7 +2602,7 @@ const state = {
                         text: require('@/assets/images/city/liyang/14.png')
                     }, {
                         type: 1,
-                        text: '环湖别墅，随时可以游湖，骑行。休假放松必做，通过运动与赏景放松身心'
+                        text: '环湖别墅，随时可以游湖，骑行。休假放松必住，通过运动与赏景放松身心。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/liyang/15.png')
@@ -2687,7 +2678,7 @@ const state = {
                         text: '小红书@超级Lynn',
                     }, {
                         type: 1,
-                        text: '城南门口打卡必到，在城墙上俯瞰洱海，享受视觉盛宴；人民路既繁华热闹，又古朴文艺，不失为午后慵懒闲逛首选之地。'
+                        text: '城南门口打卡必到，在城墙上俯瞰洱海，享受视觉盛宴；人民路既繁华热闹，古朴文艺，不失为午后慵懒闲逛首选之地。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/erhai/8.png'),
@@ -2878,7 +2869,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '该让自己的身休息啦',
+                    describe: '给自己放个假',
                     // qrCodeImg: require('@/assets/images/qrCodeImg/hotel_8142.png'),
                     // hotelId: '8142',
                     info: [{
@@ -2899,7 +2890,7 @@ const state = {
                         type: 1,
                         text: '周边配套有海洋馆、野生动物园、国际马戏团等给你带来欢声笑语与自然之美；还可以在湖边观赏日落和日出哦。'
                     }, {
-                        type: 0,
+                        type: 2,
                         text: require('@/assets/images/city/yuxi/12.png')
                     }, {
                         type: 3,
@@ -2911,7 +2902,7 @@ const state = {
                 label: '安顺',
                 cover: require('@/assets/images/cityImg/anshun.png'),
                 titleCover: require('@/assets/images/cityTitle/anshun.png'),
-                describe: '不曾去想天有多高，世界上总是有那么一个地方，让人魂牵梦绕。',
+                describe: '不曾去想天有多高，<br>世界上总是有那么一个地方，让人魂牵梦绕。',
                 info: [{
                     type: 1,
                     text: '贵州地处云贵高原是一个多民族共居的省份，安顺则是贵州第三大城市也是全国唯一的“深化改革，促进多种经济成分共生繁荣，加快发展”改革试验区，民用航空产业国家高技术产业基地，贵州历史文化名城，是“贵州加快发展的经济特区”，世界喀斯特风光旅游优选地区，全国六大黄金旅游热线之一和贵州西部旅游中心。'
@@ -2938,7 +2929,7 @@ const state = {
                     text: '小红书用户@私享世界'
                 }],
                 play: [{
-                    describe: '游少数民族聚落，赏自然山川美景',
+                    describe: '游少数民族聚落，<br>赏自然山川美景',
                     info: [{
                         type: 1,
                         text: '作为中国优秀旅游城市之一，安顺拥有丰富的旅游资源，这里是多民族聚居的地区，仡佬族、苗族、布依族等少数民族在这片古老的土地上繁衍生息，形成了独特的文化习俗。民族节日丰富多彩，古风犹存。安顺瀑布成群，洞穴成串，真山真水，奇特壮观，山水洞瀑浑然一体的整体美、形象美、色彩美突出地表现了旅游资源的特色，众多的文物古迹给这片土地增添了无穷的生命力。黄果树瀑布、镇远古城等更是安顺必去的知名景点。'
@@ -2990,7 +2981,7 @@ const state = {
                     }],
                 }],
                 eat: [{
-                    describe: '高原上，没事吃点不尽',
+                    describe: '香辣鲜美，高原上的美食享不尽',
                     info: [{
                         type: 1,
                         text: '贵州富丽山川，自然资源丰富，各个少数民族都有自己的饮食文化，因而美食各具特色，千万种美食，引得国内外旅客慕名而来，来到贵州仿佛就进入了，美食的天堂。'
@@ -3005,7 +2996,7 @@ const state = {
                         text: '制作原料主要有鱼肉、酸汤、山仓子等香料。成菜后，略带酸味、幽香沁人、鲜嫩爽口开胃，是贵州“黔系”菜肴的代表。'
                     }],
                 },{
-                    describe: '舌尖上的安顺，印象里的贵州',
+                    describe: '舌尖上的安顺，<br>印象里的贵州',
                     info: [{
                         type: 2,
                         text: require('@/assets/images/city/anshun/9.png')
@@ -3014,7 +3005,7 @@ const state = {
                         text: '搜狐网'
                     },{
                         type: 1,
-                        text: '夺夺粉小火锅，安顺特有的一种小火锅，类似火锅又完全不同于火锅的，在一锅由店家配好的很稠的汤锅(汤锅由有西红柿、糟辣椒等制作的)端上来以后，就可以点菜了，火腿肠是必不可少的配菜，此外还有蛋饺、粉丝、藕片、二块耙、冻魔芋等等，再加一份时鲜蔬菜，经济实惠又美味。'
+                        text: '夺夺粉小火锅，安顺特有的一种小火锅，类似火锅又完全不同于火锅，在一锅由店家配好的很稠的汤锅(汤锅由有西红柿、糟辣椒等制作的)端上来以后，就可以点菜了，火腿肠是必不可少的配菜，此外还有蛋饺、粉丝、藕片、二块耙、冻魔芋等等，再加一份时鲜蔬菜，经济实惠又美味。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/anshun/10.png')
@@ -3032,7 +3023,7 @@ const state = {
                         text: '大众点评用户@七小囍'
                     },{
                         type: 1,
-                        text: '贵水瑶餐厅，贵水瑶逐步打造具有贵州色的餐饮门店，布依族装修风格，酸汤鱼口味地道，出行美食首选。'
+                        text: '贵水瑶餐厅，贵水瑶逐步打造具有贵州特色的餐饮门店，布依族装修风格，酸汤鱼口味地道，出行美食首选。'
                     },{
                         type: 4,
                         text: '电话：0851-38886288'
@@ -3048,7 +3039,7 @@ const state = {
                         text: '安顺斯维登度假公寓（万象城青瓦台）'
                     },{
                         type: 1,
-                        text: '推荐亮点:黄金地段，交通便利，核心商业区，购物者的天堂，新中式装修设计风格典雅而不失华豪华，设备齐全，温馨舒适，直面黄果树，尽尝小吃街。'
+                        text: '推荐亮点:黄金地段，交通便利，核心商业区，购物者的天堂，新中式装修设计风格典雅而不失豪华，设备齐全，温馨舒适，直面黄果树，尽尝小吃街。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/anshun/12.png')
@@ -3089,7 +3080,7 @@ const state = {
                 describe: '红色圣地，西南交通枢纽',
                 info: [{
                     type: 1,
-                    text: '遵义一个蕴含红色革命文化的地方，一个山川秀美，人杰地灵的贵州旅游胜地。有遵义古城，遵义会议遗址，娄山关景区等人文自然美景，风光无限。'
+                    text: '遵义是一个蕴含红色革命文化的地方，一个山川秀美，人杰地灵的贵州旅游胜地。有遵义古城，遵义会议遗址，娄山关景区等人文自然美景，风光无限。'
                 },{
                     type: 2,
                     text: require('@/assets/images/city/zunyi/1.png')
@@ -3159,7 +3150,7 @@ const state = {
                         text: '小红书用户@Fi哩啡哩'
                     },{
                         type: 1,
-                        text: '众人熙熙农家乐，树林里的宝藏小店，环境优美，不拘一格，与城市喧嚣形成鲜明对比，彩色齐全，地道遵义味。'
+                        text: '众人熙熙农家乐，树林里的宝藏小店，环境优美，不拘一格，与城市喧嚣形成鲜明对比，菜色齐全，地道遵义味。'
                     },{
                         type: 4,
                         text: '电话：(0851)28438888'
@@ -3177,7 +3168,7 @@ const state = {
                         text: '遵义斯维登度假公寓'
                     },{
                         type: 1,
-                        text: '推荐亮点：4A风景区娄山关风景区内，青山绿时间的精致客房，森林山泉养生，设备齐全，布置温馨，交通便利。'
+                        text: '推荐亮点：4A风景区娄山关风景区内，青山绿水间的精致客房，森林山泉养生，设备齐全，布置温馨，交通便利。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/zunyi/7.png')
@@ -3186,7 +3177,7 @@ const state = {
                         text: require('@/assets/images/city/zunyi/8.png')
                     },{
                         type: 1,
-                        text: '选址得天独厚，青上绿水间的现代舒适公寓。空气清新，景色宜人，养生胜地。'
+                        text: '选址得天独厚，青山绿水间的现代舒适公寓。空气清新，景色宜人，养生胜地。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/zunyi/9.png')
@@ -3195,7 +3186,7 @@ const state = {
                         text: require('@/assets/images/city/zunyi/10.png')
                     },{
                         type: 1,
-                        text: '双人房、大床房，独立阳台，经选床品，一切为了你安逸的睡眠，保障你的睡眠质量。'
+                        text: '双人房、大床房，独立阳台，精选床品，一切为了你安逸的睡眠，保障你的睡眠质量。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/zunyi/11.png')
@@ -3212,10 +3203,10 @@ const state = {
                 label: '西安',
                 cover: require('@/assets/images/cityImg/xian.png'),
                 titleCover: require('@/assets/images/cityTitle/xian.png'),
-                describe: '“天然历史博物馆”，赏华夏文化古城之最',
+                describe: '“天然历史博物馆”，<br>赏华夏文化古城之最',
                 info: [{
                     type: 1,
-                    text: '西安的美，让人感到厚重。在那任何一块砖瓦中，都能找寻到历史，耳边也回响着诗歌的名句。玄奘西行的出发地，陆上路上丝绸之路之源。西安位于黄河西岸渭水平原的中部。这里是良田纵横,一目万顷的八百里秦川，物华天宝，人杰地灵在中华大地上，镶嵌在黄土高原南端的这颗耀眼的明珠。'
+                    text: '西安的美，让人感到厚重。在那任何一块砖瓦中，都能找寻到历史，耳边也回响着诗歌的名句。玄奘西行的出发地，陆上丝绸之路之源。西安位于黄河西岸渭水平原的中部。这里是良田纵横,一目万顷的八百里秦川，物华天宝，人杰地灵在中华大地上，镶嵌在黄土高原南端的这颗耀眼的明珠。'
                 },{
                     type: 2,
                     text: require('@/assets/images/city/xian/1.png')
@@ -3260,7 +3251,7 @@ const state = {
                         text: '它是世界八大奇迹之一,兵马俑真是气势磅礴,气势恢弘,是中华民族的一大瑰宝。八千陶俑组成的古代严密的军阵，是秦始皇地下王国的象征。其磅礴的气势，展示了秦王朝大帝国"马上得天下"的风貌。'
                     }]
                 },{
-                    describe: '西安历史文脉的体现——西安古城',
+                    describe: '西安历史文脉的体现——<br>西安古城',
                     info: [{
                         type: 2,
                         text: require('@/assets/images/city/xian/6.png')
@@ -3269,7 +3260,7 @@ const state = {
                         text: '小红书用户@县当地向导王瑞雪'
                     },{
                         type: 1,
-                        text: '西安城墙，作为古都的守护者，以其独特的魅力向世人绽放着她的恢弘、壮丽和博大，向世界展示着古都的深邃、智慧和兼容并蓄。'
+                        text: '西安城墙，作为古都的守护者，以其独特的魅力向世人展现着她的恢弘、壮丽和博大，向世界展示着古都的深邃、智慧和兼容并蓄。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/xian/7.png')
@@ -3291,7 +3282,7 @@ const state = {
                     describe: '三秦大地，面食天堂',
                     info: [{
                         type: 1,
-                        text: '陕西是一片神奇的土地，从上古祖先“华胥氏”“炎黄二帝”，到“夏商周”，“秦汉隋唐”，都与这片土地有关。三秦大地的美食 和这块古老的土地一样， 散发着迷人的气息。在漫长的历史岁月中，上到皇宫殿堂下到田间地头，诞生出一样又一样的人间美味。有臊子面，牛羊肉泡馍等，山西传统面食。'
+                        text: '陕西是一片神奇的土地，从上古祖先“华胥氏”“炎黄二帝”，到“夏商周”“秦汉隋唐”，都与这片土地有关。三秦大地的美食和这块古老的土地一样， 散发着迷人的气息。在漫长的历史岁月中，上到皇宫殿堂下到田间地头，诞生出一样又一样的人间美味。有臊子面，牛羊肉泡馍等，陕西传统面食。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/xian/4.png')
@@ -3306,7 +3297,7 @@ const state = {
                     describe: '面食之都，老百姓的智慧',
                     info: [{
                         type: 1,
-                        text: '西安特色美食以各种面食闻名于世，自古至今在西安人民田间地头，柴米有油盐的平凡日子里，面食的制作已是中华之最，每一种美味，都充满了生活气息，都接近人们对大西北生活风气的阐释。'
+                        text: '西安特色美食以各种面食闻名于世，自古至今在西安人民田间地头，柴米油盐的平凡日子里，面食的制作已是中华之最，每一种美味，都充满了生活气息，都接近人们对大西北生活风气的阐释。'
                     },{
 
                     },{
@@ -3351,7 +3342,7 @@ const state = {
                         text: '【格林童话】进城墙/大唐西市/西大大三居'
                     },{
                         type: 1,
-                        text: '推荐亮点:是中心路段，交通、购物便利，临近古城墙，西市，古城夜景一览无余，整洁干净，拼着床品，设施疲惫，封闭式厨房，温馨感爆棚。'
+                        text: '推荐亮点:市中心路段，交通、购物便利，临近古城墙，西市，古城夜景一览无余，整洁干净，品质床品，设施齐备，封闭式厨房，温馨感爆棚。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/xian/11.png')
@@ -3392,7 +3383,7 @@ const state = {
                 describe: '陕南福地秦岭自然保护区',
                 info: [{
                     type: 1,
-                    text: '“云横秦岭家何在?雪拥蓝关马不前。”这句描写秦岭的诗,为世人展现出一幅唯美的秦岭风光画卷。走近秦岭,如同进入-个梦境里，河流飘着雾气，远山云雾缭绕，空谷幽静，白云深处藏人....古诗里描绘的美景在这里随处可见，身临仙境的美妙意境让人流连忘返。'
+                    text: '“云横秦岭家何在?雪拥蓝关马不前。”这句描写秦岭的诗,为世人展现出一幅唯美的秦岭风光画卷。走近秦岭,如同进入一个梦境里，河流飘着雾气，远山云雾缭绕，空谷幽静，白云深处藏人....古诗里描绘的美景在这里随处可见，身临仙境的美妙意境让人流连忘返。'
                 },{
                     type: 2,
                     text: require('@/assets/images/city/qinling/1.png')
@@ -3520,10 +3511,10 @@ const state = {
                 label: '古北水镇',
                 cover: require('@/assets/images/cityImg/gubeishuizhen.png'),
                 titleCover: require('@/assets/images/cityTitle/gubeishuizhen.png'),
-                describe: '赴一场时光之约——古北水镇',
+                describe: '赴一场时光之约——<br>古北水镇',
                 info: [{
                     type: 1,
-                    text: '在密云郊外的古北口镇司马台村，背靠长城的山脚下，“隐藏”着一座即年轻，又充满时光韵味的古城小镇——古北水镇。这里青砖灰瓦、木质亭台，小桥流水，摇船游弋，宛如被遗落在时光之外的“世外桃源”。'
+                    text: '在密云郊外的古北口镇司马台村，背靠长城的山脚下，“隐藏”着一座即=既年轻，又充满时光韵味的古城小镇——古北水镇。这里青砖灰瓦、木质亭台，小桥流水，摇船游弋，宛如被遗落在时光之外的“世外桃源”。'
                 }, {
                     type: 2,
                     text: require('@/assets/images/city/beijing/4.png')
@@ -3541,7 +3532,7 @@ const state = {
                     text: '小红书用户@双木嘉容'
                 }],
                 eat: [{
-                    describe: '从小吃到大餐，每一种味道都想品尝！',
+                    describe: '从小吃到大餐，<br>每一种味道都想品尝！',
                     info: [{
                         type: 1,
                         text: '古北烤红薯、烤梨、桥头糕、豆腐角、萝卜丝饼……各种特色小吃应有尽有。'
@@ -3642,7 +3633,7 @@ const state = {
                     },]
                 }],
                 live: [{
-                    describe: '住在长城脚下，俯瞰水镇美景',
+                    describe: '住在长城脚下，<br>俯瞰水镇美景',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_27.png'),
                     hotelId: '27',
                     info: [{
@@ -3665,7 +3656,7 @@ const state = {
                         text: '小红书用户@Borje'
                     }, {
                         type: 1,
-                        text: '空间宽阔可以容纳多人同时入住，是家庭出游、好友相聚、轰趴团建的最优选择。管家阿姨不会随意打扰，整个空间很私密，早餐有阿姨来现做，午餐和晚餐可以自己diy。'
+                        text: '空间宽阔可以容纳多人同时入住，是家庭出游、好友相聚、轰趴团建的最优选择。管家阿姨不会随意打扰，整个空间很私密，早餐有阿姨来现做，午餐和晚餐可以自己DIY。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/beijing/20.png')
@@ -3694,7 +3685,7 @@ const state = {
                     text: '小红书用户@马宇'
                 }],
                 eat: [{
-                    describe: '质朴的分量与价格，超鲜的味道与体验',
+                    describe: '质朴的分量与价格，<br>超鲜的味道与体验',
                     info: [{
                         type: 1,
                         text: '来白洋淀一定不能不吃的就是炖鱼，汲取白洋淀的天然环境所长大的鱼,比人工养殖的味道可鲜美多了!'
@@ -3809,7 +3800,7 @@ const state = {
                 label: '天津城区',
                 cover: require('@/assets/images/cityImg/tianjin.png'),
                 titleCover: require('@/assets/images/cityTitle/tianjin.png'),
-                describe: '山河秀丽，文化名扬，相声快板响四方',
+                describe: '山河秀丽，文化名扬，<br>相声快板响四方',
                 info: [{
                     type: 1,
                     text: '东临渤海，北依燕山，海河在城中蜿蜒而过，造就了天津秀丽的风景。深厚的文化底蕴在这座城市衍生出了相声、快板等艺术瑰宝，为人们的生活增添了无限的乐趣，也造就了天津人乐观的性格。'
@@ -3828,7 +3819,7 @@ const state = {
                         text: require('@/assets/images/city/tianjin/3.png')
                     }, {
                         type: 1,
-                        text: '天津人的乐观也体现在吃上，作为一天的开始，早餐一定要吃好，对于大部分天津人来说，最好吃的煎饼果子一定是“我家楼下那家”。寒冷的北方早晨，一笼狗不理包子，一套加鸡蛋的煎饼果子，一块冒着热气的耳朵眼儿炸糕，便开启了热闹的一天'
+                        text: '天津人的乐观也体现在吃上，作为一天的开始，早餐一定要吃好，对于大部分天津人来说，最好吃的煎饼果子一定是“我家楼下那家”。寒冷的北方早晨，一笼狗不理包子，一套加鸡蛋的煎饼果子，一块冒着热气的耳朵眼儿炸糕，便开启了热闹的一天。'
                     }],
                 },{
                     describe: '浪漫与美食的碰撞',
@@ -3858,7 +3849,7 @@ const state = {
                         text: '小红书用户@M畅M'
                     }, {
                         type: 1,
-                        text: '位于天津之眼售票处附近，就隐藏着这样一家门店——鳢lǐ·鱼鳢川味融合籽蟹火锅，环境好到超乎想想，纸片鱼和乌鳢鱼骨肉五星推荐！'
+                        text: '位于天津之眼售票处附近，就隐藏着这样一家门店——鳢lǐ·鱼鳢川味融合籽蟹火锅，环境好到超乎想象，纸片鱼和乌鳢鱼骨肉五星推荐！'
                     }, {
                         type: 4,
                         text: '电话：022-27312850'
@@ -3880,7 +3871,7 @@ const state = {
                         text: '去一趟天津古文化街、鼓楼、解放桥感受传统文化的魅力，体会老天津人悠闲自在的本地生活；或者到天津之眼、滨海图书馆等气派的地标建筑打卡留念，这里记录了天津的成长与发展，也展现了天津繁荣的一面。'
                     }],
                 }, {
-                    describe: '城市繁华尽收眼底——天津之眼',
+                    describe: '城市繁华尽收眼底——<br>天津之眼',
                     info: [{
                         type: 2,
                         text: require('@/assets/images/city/tianjin/4.png')
@@ -3892,7 +3883,7 @@ const state = {
                         text: '摩天轮，不但是各种游乐场里的人气王，还成为许多城市的地标性建筑，2008 年落成的「天津之眼」是其中最特别的一个，它矗立在天津的三岔河口永乐桥之上，是世界上唯一一座建在桥上的摩天轮。'
                     },],
                 }, {
-                    describe: '摩天轮与游船，满足所有浪漫',
+                    describe: '摩天轮与游船，<br>满足所有浪漫',
                     info: [{
                         type: 2,
                         text: require('@/assets/images/city/tianjin/5.png')
@@ -4033,7 +4024,7 @@ const state = {
                 label: '北京城区',
                 cover: require('@/assets/images/cityImg/beijing.png'),
                 titleCover: require('@/assets/images/cityTitle/beijing.png'),
-                describe: '红墙白塔、绿瓦琉璃，共赴一场三千年时光之旅',
+                describe: '红墙白塔、绿瓦琉璃，<br>共赴一场三千年时光之旅',
                 info: [{
                     type: 1,
                     text: '北京，古称燕京、北平，这里是中国首都所在，也是政治，文化、交通、科技和国际交往中心。三千年历史沉淀，北京以其独特的魅力吸引着国内外游客络绎不绝前来“一睹芳容”。'
@@ -4042,7 +4033,7 @@ const state = {
                     text: require('@/assets/images/city/beijing/1.png')
                 }, {
                     type: 3,
-                    text: '百度百科'
+                    text: '小红书用户@阿远来了'
                 }],
                 eat: [{
                     describe: '皇城根儿的味蕾享受',
@@ -4081,10 +4072,10 @@ const state = {
                 label: '武夷山',
                 cover: require('@/assets/images/cityImg/wuyishan.png'),
                 titleCover: require('@/assets/images/cityTitle/wuyishan.png'),
-                describe: '九曲绕山情满山，占尽人间美',
+                describe: '九曲绕山情满山，<br>占尽人间美',
                 info: [{
                     type: 1,
-                    text: '武夷山位于福建省武夷山市南郊，是中国着名的风景旅游区和避暑胜地，属于典型的丹霞地貌，是世界文化与自然遗产地，首批国家级重点风景名胜区。武夷山通常指位于福建省武夷山市西南 15 公里的小武夷山，被称为福建第一名山，属典型的丹霞地貌，是世界文化与自然遗产地，首批国家重点风景名胜区之一。武夷山西部是全球生物多样性保护的关键地区，分布着世界同纬度带现存最完整、最典型、面积最大的中亚热带原生性森林生态系统。'
+                    text: '武夷山位于福建省武夷山市南郊，是中国著名的风景旅游区和避暑胜地，属于典型的丹霞地貌，是世界文化与自然遗产地，首批国家级重点风景名胜区。武夷山通常指位于福建省武夷山市西南 15 公里的小武夷山，被称为福建第一名山，属典型的丹霞地貌，是世界文化与自然遗产地，首批国家重点风景名胜区之一。武夷山西部是全球生物多样性保护的关键地区，分布着世界同纬度带现存最完整、最典型、面积最大的中亚热带原生性森林生态系统。'
                 },{
                     type: 2,
                     text: require('@/assets/images/city/wuyishan/1.png')
@@ -4099,7 +4090,7 @@ const state = {
                     text: '网络'
                 }],
                 play: [{
-                    describe: '船在碧波上，人在画中游；漫步山涧间，题诗白云阁。',
+                    describe: '船在碧波上，人在画中游；<br>漫步山涧间，题诗白云阁。',
                     info: [{
                         type: 1,
                         text: '从世界的繁华似锦，渡入乡野； 从茶叶到民宿的点滴沉淀，再到当地文化的浸润挖掘。游武夷山，漫步于山间，细碎的步伐枕着斑驳的千年古道，亚热带森林的氧气浸润着唐宋古风的茶香，斜阳绕过凤尾竹的发梢洒在斑驳的建盏上；沿途不仅是大自然的鬼斧神工，还有武夷山独特而丰富的文化内涵：中国一批历史文化名人朱熹、陆游、辛弃疾等都先后在武夷山生活、讲学，留下了不少文化遗产。'
@@ -4143,7 +4134,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '清茶谈话，散闷消愁，体验山外山的洞天居所',
+                    describe: '清茶谈话，散闷消愁，<br>体验山外山的洞天居所',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_16985.png'),
                     hotelId: '16985',
                     info: [{
@@ -4166,7 +4157,7 @@ const state = {
                         text: require('@/assets/images/city/wuyishan/12.png')
                     },{
                         type: 1,
-                        text: '室内配有茶具、入住后静静的泡上一-壶茶，与三五好友闲聊，畅谈人生。'
+                        text: '室内配有茶具、入住后静静的泡上一壶茶，与三五好友闲聊，畅谈人生。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/wuyishan/13.png')
@@ -4178,7 +4169,7 @@ const state = {
                         text: require('@/assets/images/city/wuyishan/15.png')
                     },{
                         type: 1,
-                        text: '厨房可请武夷山本地厨师做饭，足不出户享受武夷山地道美食。专业的贴心管家一站式服务，体验旅途中的家的感觉。'
+                        text: '厨房可请武夷山本地厨师做饭，足不出户享受武夷山地道美食。专业的贴心管家一站式服务，体验旅途中家的感觉。'
                     }]
                 }]
             }, {
@@ -4186,7 +4177,7 @@ const state = {
                 label: '龙海',
                 cover: require('@/assets/images/cityImg/longhai.png'),
                 titleCover: require('@/assets/images/cityTitle/longhai.png'),
-                describe: '漳州龙海，埭美古村——不为人知的桃花源',
+                describe: '漳州龙海，埭美古村——<br>不为人知的桃花源',
                 info: [{
                     type: 1,
                     text: '漳州市龙海区位于福建省东南沿海，福建第二大江九龙江出海口，西与漳州主城区毗邻，东临厦门湾区。区内的埭美古村是龙海现存最大、保存最完整的古民居建筑群，它是闽系红砖建筑文化的杰出代表，屋顶多为硬山式曲线燕尾脊，红瓦屋面，石砌墙体，从上往下看异常整齐划一，是一个超过600年历史的古村落。'
@@ -4198,7 +4189,7 @@ const state = {
                     text: '小红书用户@wushiiyuu'
                 }],
                 play: [{
-                    describe: '夕阳染红石墙，这里的日色从来都很缓慢。',
+                    describe: '夕阳染红石墙，<br>这里的日色从来都很缓慢。',
                     info: [{
                         type: 1,
                         text: '全村四面环水，古榕遍村，古厝成群，好似一处被人遗忘的桃源。这里游客很少，日子很慢，276座房屋，连出一段闽南旧事。在村门口的大榕树下晒太阳，看夕阳把硬山燕尾脊屋顶，渐渐染红。穿梭在巷弄里，初来乍到，很容易就迷了路。尘世喧嚣，村民就在这儿，过着最朴实的生活。你千万别告诉别人，因为它，不足为外人道也。'
@@ -4217,7 +4208,7 @@ const state = {
                     }]
                 }],
                 eat: [{
-                    describe: '穿梭巷弄，体验当地风土人情',
+                    describe: '穿梭巷弄，<br>体验当地风土人情',
                     info: [{
                         type: 1,
                         text: '手工麻糍、锅边糊、米苔目、秋葵茶......穿梭古村的街头巷尾，品尝独属于当地的烟火人间。'
@@ -4262,7 +4253,7 @@ const state = {
                         text: require('@/assets/images/city/longhai/7.png')
                     },{
                         type: 1,
-                        text: '这里还是《西虹市首富》、《重返20岁》、《我的奇妙男友》等无数剧组的取景地，闲时散步周边，可能随时偶遇明星~'
+                        text: '这里还是《西虹市首富》《重返20岁》《我的奇妙男友》等无数剧组的取景地，闲时散步周边，可能随时偶遇明星~'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/longhai/8.png')
@@ -4312,7 +4303,7 @@ const state = {
                     text: '小红书用户@梁哈哈的快乐星球'
                 }],
                 play: [{
-                    describe: '漫步海滨，这里既有最美海景，也有繁华都市',
+                    describe: '漫步海滨，这里既有<br>最美海景，也有繁华都市',
                     info: [{
                         type: 1,
                         text: '岛、礁、岩、寺、花、木相互映衬，侨乡风情、闽台习俗、海滨美食、异国建筑融为一体，四季如春的气候更为海的魅力锦上添花。风景秀丽，气候宜人，海水环绕、沙滩广阔、阳光和煦，可以说这里是全国环境最好的城市之一。同时，作为改革开放的先行地，厦门也有其现代化的繁华一面，地标建筑双子塔彰显这一点。此外，厦门大学、华侨大学等书香之地也是这座城市独有的气质。'
@@ -4343,7 +4334,7 @@ const state = {
                     describe: '食在厦门，寻觅地道闽南味儿',
                     info: [{
                         type: 1,
-                        text: '厦门属闽南，而闽南菜清鲜香脆，注重调汤估料，口味清淡，酸甜适宜，中西合璧，变化无穷，它的烹调技法多样，有炸、炒、煮、炖、焖、煎、卤、火可、火工、淋、蒸等。与其去吃何处都有的汉堡炸鸡，不如去老城区转转，寻找地道的闽南味儿。海蛎煎、闽南叉烧、海苔春卷、香酥鸭......总有一道菜对你胃口。'
+                        text: '厦门属闽南，而闽南菜清鲜香脆，注重调汤估料，口味清淡，酸甜适宜，中西合璧，变化无穷，它的烹调技法多样，有炸、炒、煮、炖、焖、煎、炣、灴、淋、蒸等。与其去吃何处都有的汉堡炸鸡，不如去老城区转转，寻找地道的闽南味儿。海蛎煎、闽南叉烧、海苔春卷、香酥鸭......总有一道菜对你胃口。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/xiamen/9.png')
@@ -4365,7 +4356,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '漫步林荫小径，感受书香之气',
+                    describe: '漫步林荫小径，<br>感受书香之气',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_729.png'),
                     hotelId: '729',
                     info: [{
@@ -4448,7 +4439,7 @@ const state = {
                     describe: '星空草地下的火锅烤肉',
                     info: [{
                         type: 1,
-                        text: '度假村运离市区，推荐自带食材，餐具厨具民宿有提供，独栋提供一个烤盘以及一个火锅，足够使用。'
+                        text: '度假村远离市区，推荐自带食材，餐具厨具民宿有提供，独栋提供一个烤盘以及一个火锅，足够使用。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/zhangzhou/6.png')
@@ -4503,7 +4494,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '云烟缭绕，古树清泉，这里是私享版“富村山居”',
+                    describe: '云烟缭绕，古树清泉，<br>这里是私享版“富村山居”',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_7660.png'),
                     hotelId: '7660',
                     info: [{
@@ -4543,7 +4534,7 @@ const state = {
                 label: '长沙',
                 cover: require('@/assets/images/cityImg/changsha.png'),
                 titleCover: require('@/assets/images/cityTitle/changsha.png'),
-                describe: '岳麓橘洲爱晚亭，雨花湘江黄兴街',
+                describe: '岳麓橘洲爱晚亭，<br>雨花湘江黄兴街',
                 info: [{
                     type: 1,
                     text: '长沙，别称为潭州，湖南省省会，有“屈贾之乡”“潇湘洙泗”之称。长沙地处湖南省东部偏北，属亚热带季风性湿润气候，是首批国家历史文化名城，一座迷人的山水洲城，存有马王堆汉墓、铜官窑等历史遗迹。'
@@ -4558,7 +4549,7 @@ const state = {
                     text: '网络'
                 }],
                 play: [{
-                    describe: '橘洲湘江的无限风光，市井生活的不尽繁华',
+                    describe: '橘洲湘江的无限风光，<br>市井生活的不尽繁华',
                     info: [{
                         type: 1,
                         text: '长沙之行，玩处颇多。一提到长沙，人们就自然想到湘江和橘子洲头。湘江两岸赤壁如霞，白砂如雪，垂柳如丝，樯帆如云，构成美丽的长沙沿江风光带，是市民晨练晚游的佳境，也是游人观光小憩的好去处。'
@@ -4634,7 +4625,7 @@ const state = {
                         text: require('@/assets/images/city/changsha/11.png')
                     },{
                         type: 1,
-                        text: '房子是很温馨舒适装修风格，房源是两室-厅一卫带开放式厨房的户型，大小家电配置齐全，两个独立的房间都有空调，三台空调都是采用冷暖空调，夏天不怕热，冬天不怕冷哦!'
+                        text: '房子是很温馨舒适装修风格，房源是两室一厅一卫带开放式厨房的户型，大小家电配置齐全，两个独立的房间都有空调，三台空调都是采用冷暖空调，夏天不怕热，冬天不怕冷哦!'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/changsha/12.png')
@@ -4654,7 +4645,7 @@ const state = {
                 label: '张家界',
                 cover: require('@/assets/images/cityImg/zhangjiajie.png'),
                 titleCover: require('@/assets/images/cityTitle/zhangjiajie.png'),
-                describe: '三千奇峰，八百秀水——张家界',
+                describe: '三千奇峰，<br>八百秀水——张家界',
                 info: [{
                     type: 1,
                     text: '张家界是湖南省辖地级市，原名大庸市，位于湖南西北部，澧水中上游，属武陵山区腹地。张家界因旅游建市，是中国最重要的旅游城市之一，是湘鄂渝黔革命根据地的发源地和中心区域，是中国第一个国家森林公园。'
@@ -4666,7 +4657,7 @@ const state = {
                     text: '百度图片'
                 }],
                 play: [{
-                    describe: '五步称奇，七步叫绝；百龙电梯，一步登天',
+                    describe: '五步称奇，七步叫绝；<br>百龙电梯，一步登天',
                     info: [{
                         type: 1,
                         text: '乘坐百龙电梯登上顶端，眺望这些巍峨险峻的山峰。一朵朵白云和雾气从脚下的山间飘过，身旁是一棵棵参天古树，那会是一种非常特别的感受。因为张家界山上的雾气有时候会特别大，这时会阻碍对远处山峰的观赏。'
@@ -4798,7 +4789,7 @@ const state = {
                     text: '小红书用户@哈哈'
                 }],
                 play: [{
-                    describe: '历史与现代交融，不可错过的古今美景',
+                    describe: '历史与现代交融，<br>不可错过的古今美景',
                     info: [{
                         type: 1,
                         text: '武汉著名景点颇多例如东湖、黄鹤楼、木兰天池、汉口租界、归元寺、欢乐谷、汉口江滩等，既有都市风趣，又有千年文化底蕴，夜色之下，活色生香，蓬勃生长也兼收并蓄，鲜衣怒马裹挟市井烟火。高楼之下，繁华深处，仍有许多古朴、传统、简单的人文景观。'
@@ -4813,7 +4804,7 @@ const state = {
                         text: '两大必去的景点，黄鹤楼历经千年风雨，一直就矗立在武昌蛇山之上，夜上黄鹤楼，极目远眺，沉浸在历史的光影里；武汉长江大桥更是这座城市的地标，巍然挺立大江之上是天降的彩虹，是飞舞的巨龙，是崛起的丰碑，是久盼的图腾！'
                     }]
                 },{
-                    describe: '遛娃圣地，家庭休闲娱乐的乐园——武汉园博园',
+                    describe: '遛娃圣地，家庭休闲娱乐<br>的乐园——武汉园博园',
                     info: [{
                         type: 1,
                         text: '武汉园博园是第十届中国国际园林博览会的举办地，分为南、北两大区域，总面积为213.77公顷，相当于8个北京中山公园那么大。第十届园博会成功举办后，武汉园博园作为城市公园永久保留，市民不用出武汉，就能轻松欣赏全国各地的园林之美，是休闲散心的好去处。'
@@ -4825,7 +4816,7 @@ const state = {
                         text: '小红书用户@棒糖还我'
                     },{
                         type: 1,
-                        text: '武汉园博会共有117个展园，其中北京园、上海园、澳门园、等15个展园是必游之地，大江南北，各具特色，令人印象深刻。'
+                        text: '武汉园博会共有117个展园，其中北京园、上海园、澳门园等15个展园是必游之地，大江南北，各具特色，令人印象深刻。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/wuhan/7.png')
@@ -4834,7 +4825,7 @@ const state = {
                         text: '小红书用户@是吴小黑呀'
                     },{
                         type: 1,
-                        text: '北京园，显皇家园林气派一园就可领略天坛、颐和园、故宫的精华美景。汉水京园”是园区最高点，墙上的壁画犹如将小人书搬上了墙，三国纷争、赤壁之战、竹林七贤等历史故事，配合木雕，色彩艳丽、做工精细。看惯了小桥流水人家，一起欣赏下琉璃翠瓦，红墙白塔的美吧。'
+                        text: '北京园，彰显皇家园林气派一园就可领略天坛、颐和园、故宫的精华美景。汉水京园”是园区最高点，墙上的壁画犹如将小人书搬上了墙，三国纷争、赤壁之战、竹林七贤等历史故事，配合木雕，色彩艳丽、做工精细。看惯了小桥流水人家，一起欣赏下琉璃翠瓦，红墙白塔的美吧。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/wuhan/8.png')
@@ -4843,7 +4834,7 @@ const state = {
                         text: '小红书用户@heennsssy'
                     },{
                         type: 1,
-                        text: '葡式风情屋，都是地中海式风格。圣保罗教堂的遗迹、妈阁庙、圣保禄炮台、卢家大屋、安多尼旧堂、岗顶剧院，感受澳门的历史和魅力。艺术与历史的交融。'
+                        text: '葡式风情屋，都是地中海式风格。圣保罗教堂的遗迹、妈阁庙、圣保禄炮台、卢家大屋、安多尼旧堂、岗顶剧院，感受澳门的历史和魅力，艺术与历史的交融。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/wuhan/9.png')
@@ -4862,7 +4853,7 @@ const state = {
                     }]
                 }],
                 eat: [{
-                    describe: '早吃户部巷，晚吃吉庆街，大武汉的美食尝不尽',
+                    describe: '早吃户部巷，晚吃吉庆街，<br>大武汉的美食尝不尽',
                     info: [{
                         type: 1,
                         text: '热干面已经是武汉的代名词，过早文化之下，早起一碗热干面才能点燃武汉人一天的精气神。四季美汤包、武汉鸭脖、什锦豆腐脑、排骨莲藕汤、黄陂三鲜等美食道道精彩，来“江城”内，感受“老武汉”的快乐。'
@@ -4959,7 +4950,7 @@ const state = {
                 label: '三亚亚龙湾',
                 cover: require('@/assets/images/cityImg/yalongwan.png'),
                 titleCover: require('@/assets/images/cityTitle/yalongwan.png'),
-                describe: '来一场热带雨林的探险——亚龙湾热带天堂',
+                describe: '来一场热带雨林的探险<br>——亚龙湾热带天堂',
                 info: [{
                     type: 1,
                     text: '亚龙湾热带天堂森林公园是三亚的天然大氧吧，拥有中国南端较完整的热带雨林生态资源，电影《非诚勿扰》曾在此取景，被誉为“天下第一湾”。有玻璃栈桥、峭壁天池、烟波亭、龙行天下等著名景点，在这里可以尽情放松自己，拍出大片质感美照。'
@@ -5005,7 +4996,7 @@ const state = {
                     }]
                 }],
                 eat: [{
-                    describe: '海鲜爱好者天堂，新鲜尽在掌握',
+                    describe: '海鲜爱好者天堂，<br>新鲜尽在掌握',
                     info: [{
                         type: 1,
                         text: '海鲜平价好吃，做法多样，现捞现称的海鲜个大新鲜，满足你吃海鲜吃到撑的愿望，吃完饭去奥特莱斯购物简直不要太快乐。'
@@ -5027,7 +5018,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '打卡天下第一湾，来一场养身惬意之旅',
+                    describe: '打卡天下第一湾，<br>来一场养身惬意之旅',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_104.png'),
                     hotelId: '104',
                     info: [{
@@ -5064,10 +5055,16 @@ const state = {
                 describe: '火烈鸟和羊驼的领地',
                 info: [{
                     type: 1,
-                    text: '澄迈以优美的景观、温润的气候、特色的富硒美食】悠久的历史人文，古老的火山岩古村落群备受世人瞩目。这个有着神秘气息的小城，罗驿古村、效古村、金山寺等风情小镇，吸引着一批又一批的人前来探索。'
+                    text: '澄迈以优美的景观、温润的气候、特色的富硒美食悠久的历史人文，古老的火山岩古村落群备受世人瞩目。这个有着神秘气息的小城，罗驿古村、效古村、金山寺等风情小镇，吸引着一批又一批的人前来探索。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/chengmai/7.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@小胡子旅行笔记'
                 }],
                 play: [{
-                    describe: '得天独厚的湿地——红树湾湿地保护公园',
+                    describe: '得天独厚的湿地——<br>红树湾湿地保护公园',
                     info: [{
                        type: 2,
                        text: require('@/assets/images/city/chengmai/1.png')
@@ -5113,7 +5110,7 @@ const state = {
                     hotelId: '547',
                     info: [{
                         type: 0,
-                        text: '精品度假别墅（澄迈红树湾）'
+                        text: '欢墅·精品度假别墅（澄迈红树湾）'
                     },{
                         type: 1,
                         text: '推荐亮点:全新装修，360度超大草坪庭院，提供私人管家服务，配套4万平方米大型健步公园，海南省唯一18洞高尔夫球场，位于红树湾湿地保护公园旁，依湾而建，让你仿佛置身山水。'
@@ -5151,7 +5148,7 @@ const state = {
                     describe: '浪漫唯美、直击心灵',
                     info: [{
                         type: 1,
-                        text: '这里有中国唯一一座海岛上的歌剧院—日月贝歌剧院，有夜晚明亮壮阔的灯塔，还有隔海眺望的珠海渔女像，更有更有瑰丽盛大的海洋王国等着你来探索！'
+                        text: '这里有中国唯一一座海岛上的歌剧院—日月贝歌剧院，有夜晚明亮壮阔的灯塔，还有隔海眺望的珠海渔女像，更有瑰丽盛大的海洋王国等着你来探索！'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/zhuhai/3.png')
@@ -5221,7 +5218,7 @@ const state = {
                         text: '小红书用户@六壹'
                     }],
                 }, {
-                    describe: '湾仔海鲜街，想吃你就来',
+                    describe: '湾仔海鲜街，<br>想吃你就来',
                     info: [{
                         type: 1,
                         text: '离长隆海洋王国不远的海鲜一条街——湾仔海鲜街，从海鲜市场到加工酒楼一应俱全；手臂粗的皮皮虾、活色鲜香的鲍鱼，个顶个大的生蚝……'
@@ -5272,7 +5269,7 @@ const state = {
                         text: '珠海斯维登精品公寓（三一南方总部大厦）'
                     },{
                         type: 1,
-                        text: '推荐亮点：门店紧位于珠海市香洲区横琴口岸，距离珠海长隆海洋王国驾车12分钟，轻奢的设计风格给人带来轻松、自由、舒适的居家体验。并提供行李寄存服务、叫醒服务，给客户带来更加贴心优质的服务感觉。'
+                        text: '推荐亮点：门店位于珠海市香洲区横琴口岸，距离珠海长隆海洋王国驾车12分钟，轻奢的设计风格给人带来轻松、自由、舒适的居家体验。并提供行李寄存服务、叫醒服务，给客户带来更加贴心优质的服务感觉。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/zhuhai/15.png')
@@ -5281,7 +5278,7 @@ const state = {
                         text: require('@/assets/images/city/zhuhai/16.png')
                     },{
                         type: 1,
-                        text: '高层河景房/城景房可以一览小镇摧残夜景，同时地理位置优越，周边有铁建广场、国际商务中心可供消遣散心。'
+                        text: '高层河景房/城景房可以一览小镇璀璨夜景，同时地理位置优越，周边有铁建广场、国际商务中心可供消遣散心。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/zhuhai/17.png')
@@ -5332,7 +5329,7 @@ const state = {
                     describe: '海湾边的特色美食',
                     info: [{
                         type: 1,
-                        text: '海湾边当然要吃海鲜啦，除开随处可见的大排档里有各种各种好看又好吃的海鲜之外，还有极具特色的海上鱼排餐厅等你光顾哦。'
+                        text: '海湾边当然要吃海鲜啦，除开随处可见的大排档里有各种好看又好吃的海鲜之外，还有极具特色的海上鱼排餐厅等你光顾哦。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/huizhou/5.png')
@@ -5363,7 +5360,7 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '住大海岸边，尊享无敌海景',
+                    describe: '住大海岸边，<br>尊享无敌海景',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_200.png'),
                     hotelId: '200',
                     info: [{
@@ -5394,7 +5391,7 @@ const state = {
                 label: '广州',
                 cover: require('@/assets/images/cityImg/guangzhou.png'),
                 titleCover: require('@/assets/images/cityTitle/guangzhou.png'),
-                describe: '世界一线城市，“一带一路”枢纽',
+                describe: '世界一线城市，<br>“一带一路”枢纽',
                 info: [{
                     type: 1,
                     text: '广州位于珠江下游、濒临南海，中国通往世界的南大门；华南地区的政治经济文化中心，也是历经沧桑磨难2000多年依旧长盛不衰的中华大港；见证了无数的人文历史，被其独特文化魅力吸引的游人络绎不绝。'
@@ -5428,7 +5425,7 @@ const state = {
                     }]
                 }
                 ,{
-                    describe: '广州地标建筑，打卡必去之处',
+                    describe: '广州地标建筑，<br>打卡必去之处',
                     info: [{
                         type: 1,
                         text: '广州塔的娱乐项目有高空横向摩天轮、阿尔法探索乐园、垂直速降极限项目“极速云霄”以及空中电影城。'
@@ -5601,7 +5598,7 @@ const state = {
                     label: '青岛藏马山',
                     cover: require('@/assets/images/cityImg/qingdao.png'),
                     titleCover: require('@/assets/images/cityTitle/zangmashan.png'),
-                    describe: '山花烂漫、林荫交错的山间乐园——藏马山',
+                    describe: '山花烂漫、林荫交错的<br>山间乐园——藏马山',
                     info: [{
                         type: 1,
                         text: '藏马山旅游度假区坐落于青岛黄岛区（西海岸经济新区），山峰重峦叠嶂，生态植被丰茂，加之气候宜人，素有“东有崂山，西有藏马”一说。'
@@ -5634,7 +5631,7 @@ const state = {
                             text: '小红书@九亿少女韩憨憨'
                         }, {
                             type: 1,
-                            text: '天色渐暗，一天玩累了的你拖着疲惫的身躯再去藏马山丹溪温泉舒舒服服的泡一下，一天的疲惫瞬间就不翼而飞。'
+                            text: '天色渐暗，一天玩累了的你拖着疲惫的身躯再去藏马山丹溪温泉舒舒服服地泡一下，一天的疲惫瞬间就不翼而飞。'
                         }, {
                             type: 2,
                             text: require('@/assets/images/city/zangmashan/10.png')
@@ -5650,10 +5647,10 @@ const state = {
                         }]
                     }],
                     eat: [{
-                        describe: '水果采摘体验，吃遍民宿风情',
+                        describe: '水果采摘体验，<br>吃遍民宿风情',
                         info: [{
                             type: 1,
-                            text: '提到藏马山就不得不提到到这里种植的天然水果，有日本香野草莓、车厘子都是现摘现吃，甘甜饱满，让人体会一把“自食其果”的感觉。'
+                            text: '提到藏马山就不得不提到这里种植的天然水果，有日本香野草莓、车厘子都是现摘现吃，甘甜饱满，让人体会一把“自食其果”的感觉。'
                         }, {
                             type: 2,
                             text: require('@/assets/images/city/zangmashan/11.png')
@@ -5662,7 +5659,7 @@ const state = {
                             text: '小红书@都有啥'
                         }, {
                             type: 1,
-                            text: '当然，光吃水果时填报不了肚子的，除开生动有趣的采摘体验之外，这里推荐一家一个汇聚全国各地特色小吃的民俗风情浓郁的街道——藏马庄民俗村；人未到，味先至，离老远就能闻到浓浓的羊汤、酒香...真是应了那句话“酒香不怕巷子深”。'
+                            text: '当然，光吃水果是填饱不了肚子的，除开生动有趣的采摘体验之外，这里推荐一家一个汇聚全国各地特色小吃的民俗风情浓郁的街道——藏马庄民俗村；人未到，味先至，离老远就能闻到浓浓的羊汤、酒香...真是应了那句话“酒香不怕巷子深”。'
                         }, {
                             type: 2,
                             text: require('@/assets/images/city/zangmashan/12.png')
@@ -5715,7 +5712,7 @@ const state = {
                     describe: '威震海疆威海卫',
                     info: [{
                         type: 1,
-                        text: '从青岛到威海全程200多公里，高铁1.5小时直达，这里有上溯千年的战果遗址刘公岛；有梦幻烂漫的天鹅湖和海草屋；还有让你口水直流的各色美食，是除青岛之外又一个旅游胜地。'
+                        text: '威海距离青岛200多公里，高铁1.5小时直达，这里有上溯千年的战国遗址刘公岛；有梦幻烂漫的天鹅湖和海草屋；还有让你口水直流的各色美食，是除青岛之外又一个旅游胜地。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/weihai/1.png'),
@@ -5749,7 +5746,7 @@ const state = {
                         describe: '本地美食与外国特色',
                         info: [{
                             type: 1,
-                            text: '身为一个港口城市，除了本地的特色美食与海鲜大餐之外，更有日韩等多国美食文化交融，保证让你吃的眼花缭乱。'
+                            text: '身为一个港口城市，除了本地的特色美食与海鲜大餐之外，更有日韩等多国美食文化交融，保证让你吃得眼花缭乱。'
                         }, {
                             type: 2,
                             text: require('@/assets/images/city/weihai/4.png'),
@@ -5767,7 +5764,7 @@ const state = {
                             text: '小红书@容！一枚护肤小赟儿'
                         }, {
                             type: 1,
-                            text: '如果你想品尝一下异国料理或者钟爱韩国美食的话，那么韩乐坊夜市是你的不二选择；这里既是时尚潮流打卡地，也是年轻人的海乐街区。'
+                            text: '如果你想品尝一下异国料理或者钟爱韩国美食的话，那么韩乐坊夜市是你的不二选择；这里既是时尚潮流打卡地，也是年轻人的嗨乐街区。'
                         }, {
                             type: 2,
                             text: require('@/assets/images/city/weihai/6.png'),
@@ -5789,7 +5786,7 @@ const state = {
                         }],
                     }],
                     live: [{
-                        describe: '出门就是海，听着海浪声入睡',
+                        describe: '出门就是海，<br>听着海浪声入睡',
                         qrCodeImg: require('@/assets/images/qrCodeImg/hotel_433.png'),
                         hotelId: '433',
                         info: [{
@@ -5853,7 +5850,7 @@ const state = {
                         text: '小红书用户@Sunny'
                     }],
                 },{
-                    describe: '一次童话世界奇妙之旅——上海迪士尼乐园',
+                    describe: '一次童话世界奇妙之旅——<br>上海迪士尼乐园',
                     info: [{
                         type: 1,
                         text: '上海迪士尼乐园，位于上海市浦东新区川沙镇黄赵路310号，是中国内地首座迪士尼主题园，主题园区分为米奇大街、奇想花园、探险岛拥有迪士尼城堡等。游泳、滑冰、驾帆船，到深海捕鱼，乘气球升空，或是参观附近的名胜古迹。这些丰富多彩的节目，给迪斯尼世界更增添了几分魅，与你的童年和心中的英雄真实接触。'
@@ -5877,7 +5874,7 @@ const state = {
                         text: '小红书用户@超级可爱'
                     }, {
                         type: 1,
-                        text: '与可爱的米奇、唐老鸭、憨傻的布鲁托一起拍照，在迪士尼乐园里你的公主梦，王子梦都可以轻松实现，当你触碰这些童话角色是，自己好像身处另一个世界，梦幻承包下就是你的拍照胜地。快让你与它们的合照刷爆自己的朋友圈。'
+                        text: '与可爱的米奇、唐老鸭、憨傻的布鲁托一起拍照，在迪士尼乐园里你的公主梦，王子梦都可以轻松实现，当你触碰这些童话角色时，自己好像身处另一个世界，梦幻承包下就是你的拍照胜地。快让你与它们的合照刷爆自己的朋友圈。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/shanghai/8.png')
@@ -5974,7 +5971,7 @@ const state = {
                         text: require('@/assets/images/city/shanghai/15.png')
                     },{
                         type: 1,
-                        text: '精装修，舒适沙发，百兆wife，可升降桌椅，液晶网络大屏，上海的夜晚与家人共享，家的温馨这里可以给你。'
+                        text: '精装修，舒适沙发，百兆wifi，可升降桌椅，液晶网络大屏，上海的夜晚与家人共享，家的温馨这里可以给你。'
                     },]
                 }]
             }, {
@@ -5997,7 +5994,7 @@ const state = {
                     describe: '“候鸟天堂”，东滩湿地公园',
                     info: [{
                         type: 1,
-                        text: '有地震馆、观鹭台、雀鸣渡等景点，海边赏万鸟齐飞，路旁看花田片片。日出、日落绝美海景让你陶醉，深入大海，在丁坝上享受海风暖阳，与各种小动物一起共度悠闲时光。'
+                        text: '有地震馆、观鹭台、雀鸣渡等景点，海边赏万鸟齐飞，路旁看花田片片。日出、日落绝美海景让你陶醉，深入大海，在堤坝上享受海风暖阳，与各种小动物一起共度悠闲时光。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/chongming/2.png')
@@ -6031,7 +6028,7 @@ const state = {
                         text: '上海轩植农家乐专业合作社官网'
                     }, {
                         type: 1,
-                        text: '崇明清水蟹青背白肚、金爪黄毛、膏脂丰满、肥满度高、味道鲜美。红烧、清蒸原汁原味，正宗地道的味觉体验，只有崇明岛上的农家硬菜，历经长期烹饪，未入三分。'
+                        text: '崇明清水蟹青背白肚、金爪黄毛、膏脂丰满、肥满度高、味道鲜美。红烧、清蒸原汁原味，正宗地道的味觉体验，只有崇明岛上的农家硬菜，历经长期烹饪，味入三分。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/chongming/5.png')
@@ -6046,7 +6043,7 @@ const state = {
                         text: '马蜂窝旅游官网'
                     }, {
                         type: 1,
-                        text: '说到崇明岛的农家乐你那必然是老滋味农家乐，上岛必经之处，交通便利，白斩鸡、油焖青皮茄子、爆炒螺蛳、银鱼跑蛋等岛上特色菜肴，汤鲜味美，店家精心布置，虽少了华贵之气，但也颇有一番意境。'
+                        text: '说到崇明岛的农家乐，第一必然是老滋味农家乐，该店位于上岛必经之处，交通便利，白斩鸡、油焖青皮茄子、爆炒螺蛳、银鱼跑蛋等岛上特色菜肴，汤鲜味美，店家精心布置，虽少了华贵之气，但也颇有一番意境。'
                     }, {
                         type: 4,
                         text: '电话：13816851311，13818538047'
@@ -6076,7 +6073,7 @@ const state = {
                         text: require('@/assets/images/city/chongming/8.png')
                     }, {
                         type: 1,
-                        text: '柔软大床房，木质地板，干净整洁，木质地板，典雅的风格。舒适的睡眠。一觉醒来，新的一天会更加美好。'
+                        text: '柔软大床房，木质地板，干净整洁，典雅的风格、舒适的睡眠。一觉醒来，新的一天会更加美好。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/chongming/9.png')

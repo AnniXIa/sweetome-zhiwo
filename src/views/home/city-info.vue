@@ -5,9 +5,9 @@
       <div class="topage">
         <img v-if="!isCheckGift" class="gift" src="@/assets/images/bg/gift_received_icon.png">
         <img v-if="isCheckGift" class="gift" src="@/assets/images/bg/gift_not_received_icon.png">
-        <div class="profile" v-if="cityInfo">
+        <div class="profile" v-if="cityInfo" :style="{paddingTop: cityId == 30 ? '1rem' : ''}">
           <img :src="cityInfo.titleCover" class="city-title-img">
-          <p class="info">{{cityInfo.describe}}</p>
+          <p class="info" v-html="cityInfo.describe"></p>
         </div>
         <div class="content" v-if="cityInfo">
           <p class="subtitle">全景扫描</p>
@@ -75,6 +75,15 @@ export default {
           let cityItem = e.list.filter(v => v.value == this.cityId)
           console.log(cityItem)
           this.cityInfo = cityItem[0]
+          if (this.cityInfo.eat[0].describe) {
+            this.cityInfo.eat[0].describe = this.cityInfo.eat[0].describe.replace('<br>', "")
+          }
+          if (this.cityInfo.play[0].describe) {
+            this.cityInfo.play[0].describe = this.cityInfo.play[0].describe.replace('<br>', "")
+          }
+          if (this.cityInfo.live[0].describe) {
+            this.cityInfo.live[0].describe = this.cityInfo.live[0].describe.replace('<br>', "")
+          }
         }
       })
       
@@ -108,17 +117,18 @@ export default {
   .gift{
     width: 1rem;
     float: right;
-    margin: .5rem .3rem .2rem;
+    margin: .5rem 0 .2rem;
+    position: absolute;
+    right: .4rem;
   }
   .profile{
     text-align: center;
-    clear: both;
   }
   .city-title-img{
     height: 2rem;
   }
   .content{
-    margin: .2rem .3rem;
+    margin: .2rem .4rem;
   }
   .subtitle{
     font-size: .33rem;
@@ -142,7 +152,7 @@ export default {
   .type1{
     font-size: .28rem;
     font-weight: 300;
-    line-height: .45rem;
+    line-height: .55rem;
     margin: .4rem 0;
   }
   .type2{
@@ -155,7 +165,7 @@ export default {
     margin-bottom: .6rem
   }
   .li{
-    margin: .3rem 0 0;
+    margin: .1rem 0 -.3rem;
     display: flex;
     align-items: center;
   }
@@ -176,7 +186,7 @@ export default {
     right: .4rem;
   }
   .bottom-bg{
-    margin-top: .5rem;
+    margin-top: 1.5rem;
     display: block;
   }
 </style>

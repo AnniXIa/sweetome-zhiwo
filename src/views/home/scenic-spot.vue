@@ -15,7 +15,7 @@
         <div class="content" v-for="info in cityInfo[from]" :key="info.text">
           <div class="content-head">
             <img class="type-icon" :src="typeIcon">
-            <p class="subtitle">{{info.describe}}</p>
+            <p class="subtitle" v-html="info.describe"></p>
           </div>
           <div v-for="item in info.info" :key="item.text">
             <p class="type0" v-if="item.type == 0">{{item.text}}</p>

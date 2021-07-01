@@ -50,15 +50,15 @@ export default {
             callback()
           }
         } else if (this.pro == 99) {
-          this.speed = 500
+          this.speed = 50
         } else if (this.pro == 95) {
           this.speed += 6000
         } else if (this.pro == 90) {
-          this.speed += 1200
+          this.speed += 120
         } else if (this.pro == 75) {
-          this.speed += 500
+          this.speed += 50
         } else if (this.pro == 50) {
-          this.speed += 150
+          this.speed += 15
         }
         if (!this.pageLoadingOk || (this.pageLoadingOk && (this.pro == 99 || this.speed == 30))) {
           if ((!this.pageLoadingOk && this.pro < 99) || (this.pageLoadingOk && (this.pro == 99 || this.speed == 30))) this.pro++

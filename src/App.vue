@@ -13,7 +13,7 @@
     <!-- 背景音乐 -->
     <my-audio ref="audio" v-if="PROJECT_CONFIG.is_background_music.is_open"></my-audio>
     <!-- 加载页 -->
-    <loading-page v-if="PROJECT_CONFIG.is_loading_page" :pageLoadingOk="pageLoadingOk" @loadingOk="loadingOk" ></loading-page>
+    <!-- <loading-page v-if="PROJECT_CONFIG.is_loading_page" :pageLoadingOk="pageLoadingOk" @loadingOk="loadingOk" ></loading-page> -->
     <!-- @curPro="curPro" -->
   </div>
 </template>
