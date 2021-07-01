@@ -67,6 +67,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@GoodJJJob'
+                    }, {
+                        type: 4,
+                        text: '电话：18906525117'
+                    }, {
+                        type: 4,
+                        text: '地址：浙江省杭州市淳安县千岛湖方向路天鹅山千岛湖乡村俱乐部内'
                     }]
                 }],
                 eat: [{
@@ -116,6 +122,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@C学姐'
+                    }, {
+                        type: 4,
+                        text: '电话：17858933500'
+                    }, {
+                        type: 4,
+                        text: '地址：睦州大道与芙蓉路交叉口南行240米'
                     }]
                 }],
                 live: [{
@@ -210,6 +222,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@认识杭州'
+                    }, {
+                        type: 4,
+                        text: '电话：0571-6454941'
+                    }, {
+                        type: 4,
+                        text: '地址：浙江建德南面24公里处大慈岩景区内'
                     }]
                 }],
                 eat: [{
@@ -241,6 +259,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '网络'
+                    }, {
+                        type: 4,
+                        text: '电话：13575634233'
+                    }, {
+                        type: 4,
+                        text: '地址：杭州下城区武林街道凤起路391-1号'
                     }]
                 }],
                 live: [{
@@ -273,21 +297,327 @@ const state = {
                         text: require('@/assets/images/city/jiande/11.png')
                     }]
                 }]
-            }, {
-                value: 12,
-                label: '淳安',
-                cover: require('@/assets/images/cityImg/chunan.png'),
-                titleCover: require('@/assets/images/cityTitle/chunan.png'),
-            }, {
+            }, 
+            // {
+            //     value: 12,
+            //     label: '淳安',
+            //     cover: require('@/assets/images/cityImg/chunan.png'),
+            //     titleCover: require('@/assets/images/cityTitle/chunan.png'),
+            // }, 
+            {
                 value: 13,
                 label: '安吉',
                 cover: require('@/assets/images/cityImg/anji.png'),
                 titleCover: require('@/assets/images/cityTitle/anji.png'),
+                describe: '安且吉兮，水墨竹乡',
+                info: [{
+                    type: 1,
+                    text: '安吉县是浙江北部一个极具发展特色的生态县，地处长三角经济圈的几何中心，有中国第一竹乡、中国白茶之乡、中国椅业之乡等美誉，是电影《卧虎藏龙》的取景地。建县于公元185年，取《诗经》“安且吉兮”之意得名。境内有凯蒂猫家园、中南百草原、中国大竹海等景点。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/anji/1.png')
+                },{
+                    type: 3,
+                    text: '百度图片'
+                },{
+                    type: 0,
+                    text: '探秘“卧虎藏龙”之地——大竹海'
+                },{
+                    type: 1,
+                    text: '安吉是竹的故乡，这里的中国大竹海，毛竹长满山坡，大竹海是以毛竹为主的林地，是浙江省最著名的大毛竹示范基地，世界亚非拉十七国毛竹科学培育基地，有“中国毛竹看浙江，浙江毛竹看安吉，安吉毛竹看港口”之誉，也是中国东南部最大的竹文化休闲旅游区。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/anji/9.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@DZeer'
+                }],
+                play: [{
+                    describe: '脱离尘世的水墨诗画，别具一格的梦幻乐园',
+                    info: [{
+                        type: 1,
+                        text: '小杭坑、天荒坪、云上草原、大竹海......安吉可玩的地方有很多。江浙沪节假日总是人山人海，不如错开出行高峰，来周边的安吉转转，这里不仅有森林峡谷，竹林茂密的自然风光，也有云上草原的天空游乐场这样的梦幻乐园。群峰叠翠，公路盘亘山间，云海竹林，享受最惬意的旅行时光。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/2.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@木野民宿'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/3.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@泡菜鱼呀'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/4.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@DZeer'
+                    }]
+                },{
+                    describe: '刀光剑影，重温武侠梦',
+                    info: [{
+                        type: 1,
+                        text: '这里是《卧虎藏龙》的取景地之一，电影中李慕白和玉娇龙竹林穿梭打斗的场面让人印象深刻。引起武侠迷畅想连篇的同时，大竹海作为一个天然氧吧，也适合携全家老少来此登山洗肺，获取内心的宁静。《卧虎藏龙》拍摄地有明显的石碑提示，如果是影迷的话可以拍照打卡留念。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/10.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/11.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/12.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/13.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/14.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@明说明话'
+                    },{
+                        type: 4,
+                        text: '电话：(0572)5210999'
+                    },{
+                        type: 4,
+                        text: '地址：浙江省湖州市安吉县天荒坪镇五鹤村'
+                    }]
+                }],
+                eat: [{
+                    describe: '“舌尖上的安吉”',
+                    info: [{
+                        type: 1,
+                        text: '了解一座城市的方式很多，而美食是最直观的体验。美食不仅能满足味觉的享受，更可以了解到原汁原味的当地生活，在安吉同样如此。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/5.png')
+                    },{
+                        type: 3,
+                        text: '网络'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/6.png')
+                    },{
+                        type: 1,
+                        text: '在安吉，推荐探寻当地土菜馆寻找最正宗的安吉味。土鸡煲、紫梅羊肉汤、茶汁红烧肉、栗子烧肉......特色繁多，让人垂涎欲滴。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/7.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@小胡萝卜'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/8.png')
+                    },{
+                        type: 3,
+                        text: '网络'
+                    }]
+                },{
+                    describe: '浅尝竹林农家生活情调',
+                    info: [{
+                        type: 1,
+                        text: '安吉本地美食极显农家情调，食材无一例外地来源于当地随处可采的竹笋，农人院子里的土鸡，或是农家自磨豆腐......朴实无华接地气。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/15.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@hddgogo'
+                    },{
+                        type: 1,
+                        text: '大竹林附近的这家安吉大竹林酒家农家菜馆值得一试，里面的土鸡煲、老豆腐、黄焖笋都极具当地特色，朴实实在。赏完竹林后不妨来此吃顿午饭。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/16.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/17.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/18.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/19.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/20.png')
+                    },{
+                        type: 3,
+                        text: '网络'
+                    },{
+                        type: 4,
+                        text: '电话：13587911798'
+                    },{
+                        type: 4,
+                        text: '地址：浙江省湖州市安吉县港山线杜家自然村1号'
+                    }]
+                }],
+                live: [{
+                    describe: '门观竹海万亩绿，窗含“天荒”江南雪',
+                    info: [{
+                        type: 0,
+                        text: '欢墅·竹博园精品度假别墅'
+                    },{
+                        type: 1,
+                        text: '推荐亮点：别墅区位于竹海核心景区，夏可漂流，冬可滑雪，20分钟就能到达安吉博物馆，5公里往返范围内聚集Hello Kitty乐园、灵峰寺等景点。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/21.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/22.png')
+                    },{
+                        type: 1,
+                        text: '门观竹海万亩绿，窗含“天荒”江南雪，让你真正摆脱城市的喧嚣。 超大厨房，让你度过欢乐的料理时光；独立棋牌，和小伙伴一起欢聚游戏人生。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/23.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anji/24.png')
+                    },{
+                        type: 3,
+                        text: '网络'
+                    },{
+                        type: 1,
+                        text: '房屋很干净，拥有私人独立泳池、私人管家、台球室等，让你尊享奢华体验；优美的环境，再搭配上细致周到的服务，酒店的休闲区定能满足您的品质需求。'
+                    }]
+                }]
             }, {
                 value: 14,
                 label: '长兴',
                 cover: require('@/assets/images/cityImg/changxing.png'),
                 titleCover: require('@/assets/images/cityTitle/changxing.png'),
+                describe: '苏浙皖之交界——湖州长兴',
+                info: [{
+                    type: 1,
+                    text: '这里是躲开人山人海，看山看水的好去处。不仅有古朴典雅长亭瓦房，还有多种多样的美食。乘船穿行于依山傍水的中式建筑之间，飘飘乎如遗世独立，羽化而登仙，仿佛是在与一位隐逸世外高人促膝长谈。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/changxing/1.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@爱旅行的大叔'
+                }],
+                play: [{
+                    describe: '山清水秀处，万物皆有灵',
+                    info: [{
+                        type: 1,
+                        text: '龙之梦动物世界，占地约1600亩，总投资6亿元，共引进400多种动物约30000头。其中一定有你不曾见过的奇妙生灵！'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/2.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/3.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@真巧同学'
+                    },{
+                        type: 1,
+                        text: '仙山湖国家湿地公园，由仙山和仙湖组成，充满灵气的地方，十分惬意。可以坐船游览，里面还有保护动物。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/4.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/5.png')
+                    },{
+                        type: 3,
+                        text: '网络'
+                    },{
+                        type: 4,
+                        text: '电话：0572-6050688、4006177878'
+                    },{
+                        type: 4,
+                        text: '地址：湖州市长兴县洪桥镇碧岩村'
+                    }]
+                }],
+                eat: [{
+                    describe: '感受江浙人户的烟火人间',
+                    info: [{
+                        type: 1,
+                        text: '桃乐乐在长兴！作为长兴地标性的奶茶，桃乐乐是到长兴必打卡的奶茶店。推荐主打招牌妃夕妍雪，颜值与味道同时在线，杯底有厚厚一层桃肉打底，粉粉嫩嫩的草莓，冰上挤满奶油，然后撒上草莓干，冰冰甜甜。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/6.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/7.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@林林林'
+                    },{
+                        type: 4,
+                        text: '电话：15257219266'
+                    },{
+                        type: 4,
+                        text: '地址：湖州市安吉县凤凰路浙江大学医学院附属第一医院(安吉分院)东侧约60米'
+                    },{
+                        type: 1,
+                        text: '此外，长兴干挑面也是必打卡的当地美食。加上灵魂豇豆，素鸡和荷包蛋，那就是一碗人生大圆满。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/8.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/9.png')
+                    },{
+                        type: 3,
+                        text: '网络'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/10.png')
+                    },{
+                        type: 3,
+                        text: '携程攻略'
+                    },{
+                        type: 1,
+                        text: '一家必去的餐厅是老李家土菜馆，人均90元的价位，做的菜很可口很诱人，挺像在家里做的菜一样，让人吃起来有亲切感，又安心。'
+                    },{
+                        type: 4,
+                        text: '电话 : 13587919283'
+                    },{
+                        type: 4,
+                        text: '地址 : 浙江省湖州市安吉县玉华路57号'
+                    }]
+                }],
+                live: [{
+                    describe: '远离城市喧嚣，抛开尘世纷扰，还来一份宁静',
+                    info: [{
+                        type: 0,
+                        text: '欢墅·度假别墅（长兴南山雅居）'
+                    },{
+                        type: 1,
+                        text: '推荐亮点：可以带宠物入住！K歌、麻将、轰趴、做饭等娱乐配套齐全，环境好，空气质量佳，周边种有果树可采摘体验。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/11.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/12.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/13.png')
+                    },{
+                        type: 1,
+                        text: '周边有大唐贡茶院、龙山绿道玻璃栈道，古寿圣寺等景点。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/14.png')
+                    },{
+                        type: 1,
+                        text: '所有极具特色的客房都配备有空调，浴室内提供拖鞋、24小时热水和吹风机，让您感受到宾至如归的享受。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/changxing/15.png')
+                    }]
+                }]
             }, {
                 value: 15,
                 label: '宁波',
@@ -316,6 +646,57 @@ const state = {
                         type: 3,
                         text: '小红书用户@墅家'
                     }]
+                },{
+                    describe: '"西子风韵、太湖气魄"，浙江第一大湖——东钱湖',
+                    info: [{
+                        type: 1,
+                        text: '东钱湖风光旖旎，身临其境，令人心旷神怡，宠辱皆忘。而这里地灵人杰，也有其悠久的历史、绚丽的文化，也是个人文荟萃之地。雅戈尔动物园、小普陀、南宋石刻公园等区内景点，让人频频驻足。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/ningbo/10.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@请叫我闲大人'
+                    }]
+                },{
+                    describe: '探索环湖宝藏景点，人文与自然的“交响曲”',
+                    info: [{
+                        type: 1,
+                        text: '东钱湖风光旖旎，身临其境，令人心旷神怡，宠辱皆忘。而这里地灵人杰，也有其悠久的历史、绚丽的文化，也是个人文荟萃之地。雅戈尔动物园、小普陀、南宋石刻公园等区内景点，让人频频驻足。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/ningbo/11.png')
+                    },{
+                        type: 3,
+                        text: '东钱湖旅游门户网'
+                    },{
+                        type: 1,
+                        text: '“北有秦陵兵马俑，南有南宋石刻群”,在中国漫长的石刻史上，偏隅江南的宋王朝少有此项艺术的留存，而东钱湖的南宋石刻群恰恰因弥合了这一历史断层而显出几分遗世独立的珍贵，它的恢弘精美在中国实属唯一，人们称它为“江南兵马俑”。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/ningbo/12.png')
+                    },{
+                        type: 3,
+                        text: '东钱湖旅游门户网'
+                    },{
+                        type: 1,
+                        text: '湖心堤如卧波长虹，将东钱湖分为两半，并串联起钱堤烟波、陶公钓矶、清风香桂、澄湖明月、二灵掠影、霞屿锁岚、补陀洞天、山僧呼舶等湖心八景。佛语呢喃中，感受其八百年古韵。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/ningbo/13.png')
+                    },{
+                        type: 3,
+                        text: '东钱湖旅游门户网'
+                    },{
+                        type: 1,
+                        text: '全球300多种近万头珍稀动物，可爱的金丝猴，威武的东北虎和非洲师，更有中华国宝大熊猫，快带上你的娃，与这些动物们一起走进自然地怀抱。'
+                    },{
+                        type: 4,
+                        text: '电话：(0574)88373737'
+                    },{
+                        type: 4,
+                        text: '地址：浙江省宁波市鄞州区东钱湖镇'
+                    }]
                 }],
                 eat: [{
                     describe: '浙东特色“甬菜”吃出海的味道',
@@ -334,6 +715,42 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书用户@milon香'
+                    }]
+                },{
+                    describe: '美食天堂，鱼虾盛宴，钱湖四宝等你品尝',
+                    info: [{
+                        type: 1,
+                        text: '东钱湖面积广阔，碧波下孕育着无数鱼虾，在人们对美食享受的极致追求中，人们逐渐将鱼的吃法发挥到极致，演化出“钱湖四宝”'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/ningbo/14.png')
+                    },{
+                        type: 3,
+                        text: '东钱湖旅游门户网'
+                    },{
+                        type: 1,
+                        text: '“钱湖之吻”。吃蛳螺时，最好用食指与拇指捏住，用嘴轻轻一吸，那美味的螺肉便入君口中。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/ningbo/15.png')
+                    },{
+                        type: 3,
+                        text: '东钱湖旅游门户网'
+                    },{
+                        type: 1,
+                        text: '钱湖河虾，通体透明、活蹦乱跳的湖虾，肉质细腻嫩白， 鲜香可口有嚼劲，不但营养丰富而且口感甚佳，是 一道受人喜爱的湖鲜。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/ningbo/16.png')
+                    },{
+                        type: 1,
+                        text: '钱湖渔港，宁波柏悦酒店标志性餐厅,其设计灵感将江南水乡的精妙之处呈现的完美至极，重新诠释了 “海鲜市场”这一主题，餐厅以传统宁波口味为特色，提供来自浙江沿海地区的地道美食，食材全部选自东钱湖这片水域，地道美食应有尽有。'
+                    },{
+                        type: 4,
+                        text: '电话：(0574)28886390'
+                    },{
+                        type: 4,
+                        text: '地址：东钱湖大堰路188号柏悦酒店内'
                     }]
                 }],
                 live: [{
@@ -414,6 +831,12 @@ const state = {
                     },{
                         type: 1,
                         text: '飞云湖、天顶湖茫茫洋洋、若海天都、云门诸峰、直拨水面。百丈飞瀑，古人说：“雁荡龙湫眼底收，百丈飞瀑雄则秀，天赐神流三千尺，半空烟霞唾棉球”。瀑布群区峡谷两边，到处是奇岩怪石，险峰幽洞。'
+                    },{
+                        type: 4,
+                        text: '电话：(0577)59003692'
+                    },{
+                        type: 4,
+                        text: '地址：温州市文成县百丈漈篁庄村'
                     }]
                 }],
                 eat: [{
@@ -442,6 +865,12 @@ const state = {
                     },{
                         type: 1,
                         text: '伯温家宴是刘伯温后裔在此设的特殊家宴，一道道色香味俱全的菜肴纷纷被赋予美好的名字，来尝一尝“开国伟人”家中的味道。'
+                    },{
+                        type: 4,
+                        text: '电话：(0577)67765599'
+                    },{
+                        type: 4,
+                        text: '地址：浙江省温州市文成县诚意路202~216号'
                     }]
                 }],
                 live: [{
@@ -519,6 +948,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书@SpongeMle是曹老师呀',
+                    }, {
+                        type: 4,
+                        text: '电话：0573-82532848',
+                    }, {
+                        type: 4,
+                        text: '地址：浙江省嘉兴市南湖区南溪西路1号',
                     }]
                 }],
                 eat: [{
@@ -541,7 +976,13 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书@稻草人旅行',
-                    },]
+                    }, {
+                        type: 4,
+                        text: '电话：13221397057',
+                    }, {
+                        type: 4,
+                        text: '地址：浙江省嘉兴市南湖区越秀南路453号美食区A-81',
+                    }]
                 }],
                 live: [{
                     describe: '精品公寓，物超所值',
@@ -636,6 +1077,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书@雨---不停',
+                    }, {
+                        type: 4,
+                        text: '电话：13655822809',
+                    }, {
+                        type: 4,
+                        text: '地址：浙江省湖州市德清县莫干山国际旅游度假区内',
                     }]
                 }],
                 eat: [{
@@ -676,6 +1123,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书@阿狗今天吃了吗',
+                    }, {
+                        type: 4,
+                        text: '电话：0572-8838506',
+                    }, {
+                        type: 4,
+                        text: '地址：浙江省湖州市德清县莫干山风景区623号大坑景区下方青草荡内(大坑景区怪石角森林公园)（金鱼妈妈的店）',
                     }]
                 }],
                 live: [{
@@ -836,10 +1289,16 @@ const state = {
                     info: [{
                         type: 1,
                         text: '穿过漫长的岁月，去贡院看看古代考生们头疼的试卷，去风水博物馆了解阆中太极风水布局，再去华光楼拍几张照片，青树石瓦，静院闹市，别有一番风味'
+                    },{
+                        type: 4,
+                        text: '电话：4001009255'
+                    },{
+                        type: 4,
+                        text: '地址：阆中市阆水中路33号'
                     }]
                 }],
                 eat: [{
-                    describe: '在古城中返璞归真',
+                    describe: '用最实惠的价格，吃最地道的美味',
                     info: [{
                         type: 1,
                         text: '去古城一定要吃小吃，锅盔、凉粉、张飞牛肉煎饼物美价廉，是古城独特的风味。'
@@ -861,6 +1320,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@水母啊水母'
+                    },{
+                        type: 4,
+                        text: '电话：0817-6237373'
+                    },{
+                        type: 4,
+                        text: '地址：四川省南充市阆中市武庙街124号'
                     }]
                 }],
                 live: [{
@@ -914,6 +1379,9 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@遛狗局'
+                    }, {
+                        type: 4,
+                        text: '地址：四川省成都市崇州隆兴镇桤木河湿地公园(以西成温邛高速南侧)'
                     }]
                 }],
                 eat: [{
@@ -945,6 +1413,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@吃喝玩乐小胖纸'
+                    }, {
+                        type: 4,
+                        text: '电话：13882056028'
+                    }, {
+                        type: 4,
+                        text: '地址：崇州市学府街136号'
                     }]
                 }],
                 live: [{
@@ -1025,6 +1499,12 @@ const state = {
                     },{
                         type: 1,
                         text: '第五层动感酒吧街、重逢1980街区是年轻人们的聚集地，夜晚在这里享受休闲时光。第四层盛宴美食街为游客们提供了最正宗的重庆小吃，在游玩的同时满足你挑剔的胃。第一到三层都是巴渝风情街，延续了青砖石瓦的巴渝传统建筑，展示了具有老重庆传统的生活细节，适合购买纪念品。'
+                    },{
+                        type: 4,
+                        text: '电话：023-63039995'
+                    },{
+                        type: 4,
+                        text: '地址：重庆市渝中区嘉陵江滨江路88号'
                     }]
                 }],
                 eat: [{
@@ -1059,6 +1539,12 @@ const state = {
                     },{
                         type: 1,
                         text: '推荐店铺：零贰山火焰江湖菜，重庆老本地人经常光顾餐厅。人气太旺，每次去都排队，要吃早点去，避开饭点高峰期。'
+                    },{
+                        type: 4,
+                        text: '电话：023-63638158'
+                    },{
+                        type: 4,
+                        text: '地址：重庆市渝中区沧白路13号'
                     }]
                 }],
                 live: [{
@@ -1100,6 +1586,27 @@ const state = {
                 },{
                     type: 3,
                     text: '百度百科'
+                },{
+                    type: 0,
+                    text: '网红地标，奢侈品天堂——成都IFS'
+                },{
+                    type: 1,
+                    text: '成都国际金融中心，简称成都IFS，位于成都市锦江区，是集购物、文化娱乐、写字楼、酒店式公寓、酒店于一体的城市综合体。近几年随着自媒体的发展，IFS知名度逐渐增强，成为了成都人尽皆知的网红地标。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/chengdu/14.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@阿蘅'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/chengdu/15.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@小爱君闲情日志'
+                },{
+                    type: 1,
+                    text: 'IFS无论何时永远都是人来人往，这里是购物爱好者的天堂，来自世界各地的奢侈品品牌让人应接不暇，琳琅满目的奢侈品仿佛置身电影当中。IFS经典的熊猫屁股也是经典拍照打卡地，将四川特色与现代潮流结合起来。'
                 }],
                 play: [{
                     describe: '潮流与传统并存的城市',
@@ -1139,6 +1646,12 @@ const state = {
                     },{
                         type: 1,
                         text: '无论是白天还是晚上，都是不一样的风景，都值得一看。'
+                    },{
+                        type: 4,
+                        text: '电话 : 028-69396939'
+                    },{
+                        type: 4,
+                        text: '地址 : 成都市锦江区红星路三段1号'
                     }]
                 }],
                 eat: [{
@@ -1183,10 +1696,10 @@ const state = {
                         type: 1,
                         text: '推荐店铺：蜀大侠，随便一家都好吃！蜀大侠的火锅功夫可谓出神入化，凭借着一锅火锅便能无敌于市场，达到无招胜有招的境界。'
                     },{
-                        type: 1,
+                        type: 4,
                         text: '电话：(028)86666757'
                     },{
-                        type: 1,
+                        type: 4,
                         text: '地址：成都市锦江区商业场街1号2层'
                     }]
                 }],
@@ -1241,6 +1754,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '网络'
+                    }, {
+                        type: 4,
+                        text: '电话 : 028-87111907'
+                    }, {
+                        type: 4,
+                        text: '地址 : 四川省成都市都江堰市青城山镇青城山路'
                     }]
                 }],
                 eat: [{
@@ -1266,6 +1785,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@热水真好喝'
+                    }, {
+                        type: 4,
+                        text: '电话: 13980469915'
+                    }, {
+                        type: 4,
+                        text: '地址: 都江堰市怀中路药王广场'
                     }]
                 }],
                 live: [{
@@ -1312,8 +1837,11 @@ const state = {
                     text: '小红书用户@荔枝爱吃蒜'
                 }],
                 play: [{
-                    describe: '趁着早上动身，去看树林中熹微的晨光，峨眉山刀削般的山岩，丰茂的植被，冲天的大树还有绿得发黑的竹林。看到金顶的云海、日光、佛光，看着金光闪闪的庙宇感受到“会当凌绝顶，一览众山小”的豪壮感。',
+                    describe: '会当凌绝顶，一览众山小',
                     info: [{
+                        type: 1,
+                        text: '趁着早上动身，去看树林中熹微的晨光，峨眉山刀削般的山岩，丰茂的植被，冲天的大树还有绿得发黑的竹林。看到金顶的云海、日光、佛光，看着金光闪闪的庙宇感受到“会当凌绝顶，一览众山小”的豪壮感。'
+                    },{
                         type: 2,
                         text: require('@/assets/images/city/emeishan/2.png')
                     }, {
@@ -1331,6 +1859,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '去峨眉山也不要忘了峨秀湖，如同中国水墨画般的湖水在阳光下波光粼粼，春夏拍照文艺感极强。'
+                    }, {
+                        type: 4,
+                        text: '电话：0833-553355'
+                    }, {
+                        type: 4,
+                        text: '地址：峨眉山市黄湾镇'
                     }]
                 }],
                 eat: [{
@@ -1359,6 +1893,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '本地人都推荐的东门豆腐脑一定要去试试。'
+                    }, {
+                        type: 4,
+                        text: '电话：0833-5568210'
+                    }, {
+                        type: 4,
+                        text: '地址：四川省乐山市峨眉山市绥山东路239号'
                     }]
                 }],
                 live: [{
@@ -1435,6 +1975,12 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书用户@Sharon郭晓琳'
+                    },{
+                        type: 4,
+                        text: '电话：0515-69969090'
+                    },{
+                        type: 4,
+                        text: '地址：江苏省盐城市东台市沿海经济区花林路8号'
                     }]
                 }],
                 eat: [{
@@ -1463,6 +2009,12 @@ const state = {
                     },{
                         type: 2,
                         text: require('@/assets/images/city/huanghaisenlin/8.png')
+                    },{
+                        type: 4,
+                        text: '电话：15312876179'
+                    },{
+                        type: 4,
+                        text: '地址：江苏省盐城市东台市弶港镇巴斗村'
                     }]
                 }],
                 live: [{
@@ -1543,6 +2095,12 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书用户@了了'
+                    },{
+                        type: 4,
+                        text: '电话：0523-88623022'
+                    },{
+                        type: 4,
+                        text: '地址：江苏省泰州市姜堰区溱潼镇溱湖大道1号'
                     }]
                 }],
                 eat: [{
@@ -1574,6 +2132,12 @@ const state = {
                     },{
                         type: 2,
                         text: require('@/assets/images/city/qinhu/10.png')
+                    },{
+                        type: 4,
+                        text: '电话：18761088246'
+                    },{
+                        type: 4,
+                        text: '地址：江苏省泰州市姜堰区溱潼镇溱湖街4号娱乐城门口'
                     }]
                 }],
                 live: [{
@@ -1648,6 +2212,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '大佛慈颜微笑，广视众生，右手"施无畏印"代表除却痛苦，左手"施与愿印"代表给予快乐，均为祝福之相，整个佛像形态庄严圆满，安详凝重而细致，显现佛陀慈悲的法相。'
+                    }, {
+                        type: 4,
+                        text: '电话：(0510)85086637'
+                    }, {
+                        type: 4,
+                        text: '地址：滨湖区环山西路68号'
                     }]
                 }],
                 eat: [{
@@ -1682,6 +2252,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '说到无锡小笼在拈花湾必然是拈花锡食，纯藏着地道的无锡味——拈花锡食，合理古木和青砖的交互打造出无锡的古韵街道之感，干净简洁，却不缺乏清新，让你在吃的过程中感受不一样的烟火之气。'
+                    }, {
+                        type: 4,
+                        text: '电话：18761595753'
+                    }, {
+                        type: 4,
+                        text: '地址：拈花湾古镇香月花街2-121号'
                     }]
                 }],
                 live: [{
@@ -1753,6 +2329,12 @@ const state = {
                     },{
                         type: 3,
                         text: '百度百科'
+                    },{
+                        type: 4,
+                        text: '电话： 0510-83695888'
+                    },{
+                        type: 4,
+                        text: '地址：江苏省无锡市惠山区桃源西路'
                     }],
                 }],
                 eat: [{
@@ -1787,6 +2369,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '推荐街巷老宅门的风韵老店老俞家，极尽的味蕾享受。古香古韵，环境优美。'
+                    },{
+                        type: 4,
+                        text: '电话：0510-83052977'
+                    },{
+                        type: 4,
+                        text: '地址：无锡市惠山区天力路中国石化加油站陆区站东北侧'
                     }],
                 }],
                 live: [{
@@ -1860,7 +2448,7 @@ const state = {
                         text: '小红书用户@刘聪lclclc'
                     }, {
                         type: 1,
-                        text: '水乡小巷多，人家尽枕河”周庄，因水而有鲜活的生命，小桥流水充满诗情画意，快带上你的小伙伴一起来欣赏这样的美景吧。'
+                        text: '“水乡小巷多，人家尽枕河”周庄，因水而有鲜活的生命，小桥流水充满诗情画意，快带上你的小伙伴一起来欣赏这样的美景吧。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/suzhou/4.png')
@@ -1951,6 +2539,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '更有南山竹海与御水温泉，视觉的享受，加上温泉的滋养，让人，仿佛全身都得到完全的放松。与孩子一起享受竹林漫步的感觉。'
+                    },{
+                        type: 4,
+                        text: '电话：曹山游客中心0519-87731118'
+                    },{
+                        type: 4,
+                        text: '地址：上兴镇永兴大道36号'
                     }]
                 }],
                 eat: [{
@@ -1973,6 +2567,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '门店则推荐老穿巷柠檬鱼，虽然看着不起眼，但这家店鱼的口感鲜美，而且价格公道，物超所值，就是饭点人很多，需要排队。'
+                    },{
+                        type: 4,
+                        text: '电话：15806140415'
+                    },{
+                        type: 4,
+                        text: '地址：常州市溧阳市永兴大道嘉缘小区'
                     }]
                 }],
                 live: [{
@@ -2021,7 +2621,7 @@ const state = {
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/liyang/16.png')
-                    },]
+                    }]
                 }]
             }]
         }, {
@@ -2118,7 +2718,13 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书@鑫言鑫境',
-                    },]
+                    }, {
+                        type: 4,
+                        text: '电话：0872-2670396',
+                    }, {
+                        type: 4,
+                        text: '地址：云南省大理白族自治州大理市一塔路42号',
+                    }]
                 }],
                 eat: [{
                     describe: '高原上的特色美食',
@@ -2158,6 +2764,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书@我是茹梦呀',
+                    },{
+                        type: 4,
+                        text: '电话：13887232202'
+                    },{
+                        type: 4,
+                        text: '地址：云南省大理白族自治州大理市大理古城大理镇叶榆路与平等路交叉口72 号'
                     }]
                 }],
                 live: [{
@@ -2220,6 +2832,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书@zuzuche',
+                    }, {
+                        type: 4,
+                        text: '电话：078776911280',
+                    }, {
+                        type: 4,
+                        text: '地址：云南省玉溪市江川区澄川线（抚仙湖）',
                     }]
                 }],
                 eat: [{
@@ -2251,6 +2869,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书@狂吃不瘦的小余',
+                    }, {
+                        type: 4,
+                        text: '电话：（街区无电话）',
+                    }, {
+                        type: 4,
+                        text: '地址：云南省玉溪市红塔区红塔大道95号',
                     }]
                 }],
                 live: [{
@@ -2286,7 +2910,177 @@ const state = {
                 value: 42,
                 label: '安顺',
                 cover: require('@/assets/images/cityImg/anshun.png'),
-                titleCover: require('@/assets/images/cityTitle/yuxi.png'),
+                titleCover: require('@/assets/images/cityTitle/anshun.png'),
+                describe: '不曾去想天有多高，世界上总是有那么一个地方，让人魂牵梦绕。',
+                info: [{
+                    type: 1,
+                    text: '贵州地处云贵高原是一个多民族共居的省份，安顺则是贵州第三大城市也是全国唯一的“深化改革，促进多种经济成分共生繁荣，加快发展”改革试验区，民用航空产业国家高技术产业基地，贵州历史文化名城，是“贵州加快发展的经济特区”，世界喀斯特风光旅游优选地区，全国六大黄金旅游热线之一和贵州西部旅游中心。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/anshun/1.png')
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/anshun/2.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@langdon'
+                },{
+                    type: 0,
+                    text: '别眨眼，来一起感受黄果树瀑布的震撼'
+                },{
+                    type: 1,
+                    text: '黄果树瀑布位于贵州安顺市区西南一小时车程的地方，属喀斯特地貌中的侵蚀裂典型瀑布，以水势浩大著称。黄果树瀑布出名始于明代旅行家徐霞客，经过历代名人的游历、传播，成为知名景点。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/anshun/6.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@私享世界'
+                }],
+                play: [{
+                    describe: '游少数民族聚落，赏自然山川美景',
+                    info: [{
+                        type: 1,
+                        text: '作为中国优秀旅游城市之一，安顺拥有丰富的旅游资源，这里是多民族聚居的地区，仡佬族、苗族、布依族等少数民族在这片古老的土地上繁衍生息，形成了独特的文化习俗。民族节日丰富多彩，古风犹存。安顺瀑布成群，洞穴成串，真山真水，奇特壮观，山水洞瀑浑然一体的整体美、形象美、色彩美突出地表现了旅游资源的特色，众多的文物古迹给这片土地增添了无穷的生命力。黄果树瀑布、镇远古城等更是安顺必去的知名景点。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/3.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@Borje'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/4.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@nono'
+                    }],
+                },{
+                    describe: '“一见”收藏黄果树',
+                    info: [{
+                        type: 1,
+                        text: '世界上很多的你以为其实都是错的。就比如，你以为黄果树瀑布只是一个瀑布。'
+                    },{
+                        type: 1,
+                        text: '不同河水顺着阶梯式地势而下，河床断落，中断了前路，于是奔涌的水流在断崖处乘着风一跃而下飞入深渊，于是成就了一场华丽的变身。有水帘洞、银链坠潭瀑布、黄果树6D影院等打卡圣地。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/7.png')
+                    },{
+                        type: 3,
+                        text: '黄果树瀑布景区官网'
+                    },{
+                        type: 1,
+                        text: '86年版《西游记》中花果山水帘洞曾给中外观众留下了美好而深刻的印象。 穿越水帘洞不仅能亲临美猴王府邸还可从各个洞窗中观赏到犀牛潭上的彩虹。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/8.png')
+                    },{
+                        type: 3,
+                        text: '黄果树瀑布景区官网'
+                    },{
+                        type: 1,
+                        text: '银链坠潭瀑布，在黄果树瀑布群中，它既不是以高取胜，也不是以阔或大惊人，而是以它那千丝万缕的情态和如泣如诉的瀑声，让人看见就不想离开。'
+                    },{
+                        type: 4,
+                        text: '电话：(0851)33592136'
+                    },{
+                        type: 4,
+                        text: '地址：贵州省镇宁布依族苗族自治县黄果树镇贵黄公路(黄果树风景名胜区)'
+                    }],
+                }],
+                eat: [{
+                    describe: '高原上，没事吃点不尽',
+                    info: [{
+                        type: 1,
+                        text: '贵州富丽山川，自然资源丰富，各个少数民族都有自己的饮食文化，因而美食各具特色，千万种美食，引得国内外旅客慕名而来，来到贵州仿佛就进入了，美食的天堂。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/5.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@苗侗老凯里酸汤鱼'
+                    },{
+                        type: 1,
+                        text: '制作原料主要有鱼肉、酸汤、山仓子等香料。成菜后，略带酸味、幽香沁人、鲜嫩爽口开胃，是贵州“黔系”菜肴的代表。'
+                    }],
+                },{
+                    describe: '舌尖上的安顺，印象里的贵州',
+                    info: [{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/9.png')
+                    },{
+                        type: 3,
+                        text: '搜狐网'
+                    },{
+                        type: 1,
+                        text: '夺夺粉小火锅，安顺特有的一种小火锅，类似火锅又完全不同于火锅的，在一锅由店家配好的很稠的汤锅(汤锅由有西红柿、糟辣椒等制作的)端上来以后，就可以点菜了，火腿肠是必不可少的配菜，此外还有蛋饺、粉丝、藕片、二块耙、冻魔芋等等，再加一份时鲜蔬菜，经济实惠又美味。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/10.png')
+                    },{
+                        type: 3,
+                        text: '搜狐网'
+                    },{
+                        type: 1,
+                        text: '一种传统早点。又叫"马泡"。因其制作简单，携带方便，价格便宜，受到人们的普遍喜爱。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/11.png')
+                    },{
+                        type: 3,
+                        text: '大众点评用户@七小囍'
+                    },{
+                        type: 1,
+                        text: '贵水瑶餐厅，贵水瑶逐步打造具有贵州色的餐饮门店，布依族装修风格，酸汤鱼口味地道，出行美食首选。'
+                    },{
+                        type: 4,
+                        text: '电话：0851-38886288'
+                    },{
+                        type: 4,
+                        text: '地址：安顺市镇宁布依族苗族自治县迎宾大道黄果树客运站东侧约90米迎宾大道88号'
+                    }],
+                }],
+                live: [{
+                    describe: '旅游城旁温馨公寓',
+                    info: [{
+                        type: 0,
+                        text: '安顺斯维登度假公寓（万象城青瓦台）'
+                    },{
+                        type: 1,
+                        text: '推荐亮点:黄金地段，交通便利，核心商业区，购物者的天堂，新中式装修设计风格典雅而不失华豪华，设备齐全，温馨舒适，直面黄果树，尽尝小吃街。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/12.png')
+                    },{
+                        type: 1,
+                        text: '外观典雅，黄金路段，豪华公寓，交通便利。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/13.png')
+                    },{
+                        type: 1,
+                        text: '新中式风格设计，精美外观，让人充满期待与新鲜感。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/14.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/15.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/16.png')
+                    },{
+                        type: 1,
+                        text: '大床房、双床房，任你选择，柔软精选床品，一切为了你的舒适睡眠，独立客厅，无线网络，设备已经俱全，如在家中一样便利，提供叫醒、早餐服务，贴心周到。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/anshun/17.png')
+                    },{
+                        type: 1,
+                        text: '整洁独立卫浴，24小时热水供应，生活用品，一应俱全，一扫出游带来的疲惫。'
+                    }]
+                }]
             }, {
                 value: 43,
                 label: '遵义',
@@ -2326,6 +3120,12 @@ const state = {
                     },{
                         type: 1,
                         text: '娄山关以著名的红军战斗遗址而名扬天下。现在各种军事工事、战壕、摩岩石刻、碑牌保存完好，令多少中外游客流涟忘返，对革命先烈深深的敬意和缅怀'
+                    },{
+                        type: 4,
+                        text: '电话：(0851)28795555'
+                    },{
+                        type: 4,
+                        text: '地址：贵州省遵义市汇川区板桥镇'
                     }]
                 }],
                 eat: [{
@@ -2360,6 +3160,12 @@ const state = {
                     },{
                         type: 1,
                         text: '众人熙熙农家乐，树林里的宝藏小店，环境优美，不拘一格，与城市喧嚣形成鲜明对比，彩色齐全，地道遵义味。'
+                    },{
+                        type: 4,
+                        text: '电话：(0851)28438888'
+                    },{
+                        type: 4,
+                        text: '地址：贵州省遵义市红花岗区忠庄镇桃溪寺儿童福利院'
                     }]
                 }],
                 live: [{
@@ -2406,13 +3212,304 @@ const state = {
                 label: '西安',
                 cover: require('@/assets/images/cityImg/xian.png'),
                 titleCover: require('@/assets/images/cityTitle/xian.png'),
+                describe: '“天然历史博物馆”，赏华夏文化古城之最',
+                info: [{
+                    type: 1,
+                    text: '西安的美，让人感到厚重。在那任何一块砖瓦中，都能找寻到历史，耳边也回响着诗歌的名句。玄奘西行的出发地，陆上路上丝绸之路之源。西安位于黄河西岸渭水平原的中部。这里是良田纵横,一目万顷的八百里秦川，物华天宝，人杰地灵在中华大地上，镶嵌在黄土高原南端的这颗耀眼的明珠。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/xian/1.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@小红薯5EA4871C'
+                },{
+                    type: 0,
+                    text: '千年时空之旅——西安古迹周游'
+                },{
+                    type: 1,
+                    text: '中国历史上最著名的城垣建筑之一，也是中国现存最完整的一座古代城垣建筑，更是历史留下的一 份属于全人类共有的文化财富。西安古城是历史变迁的见证者。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/xian/5.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@县当地向导王瑞雪'
+                }],
+                play: [{
+                    describe: '长相思，在长安',
+                    info: [{
+                        type: 1,
+                        text: '西安，18朝古都，有过名震寰宇、无比辉煌的历史文化，也有着绿水青山、无比秀媚的自然景观。西安，人杰地灵，在千百年人文与自然演化中，为我们留下无数文化宝藏，有西安城墙，大雁塔，终南山，华山等自然人文景观。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/2.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@大菊在路上'
+                    },{
+                        type: 1,
+                        text: '大雁塔古塔宏伟，寺殿香火缭绕，庭院鲜花争艳，是一处特别吸引国内外游人的游览胜地。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/3.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@精壮的小南僧'
+                    },{
+                        type: 1,
+                        text: '它是世界八大奇迹之一,兵马俑真是气势磅礴,气势恢弘,是中华民族的一大瑰宝。八千陶俑组成的古代严密的军阵，是秦始皇地下王国的象征。其磅礴的气势，展示了秦王朝大帝国"马上得天下"的风貌。'
+                    }]
+                },{
+                    describe: '西安历史文脉的体现——西安古城',
+                    info: [{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/6.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@县当地向导王瑞雪'
+                    },{
+                        type: 1,
+                        text: '西安城墙，作为古都的守护者，以其独特的魅力向世人绽放着她的恢弘、壮丽和博大，向世界展示着古都的深邃、智慧和兼容并蓄。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/7.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@爱吃面包脸会大'
+                    },{
+                        type: 1,
+                        text: '大唐西市是国内唯一在唐长安西市原址上再建的以盛唐文化、包括大唐西市博物馆，夜间灯火璀璨，车水马龙，各种主题活动，在这里可以看到丝路的美与壮阔，可以看到盛世大唐的繁华兴盛。'
+                    },{
+                        type: 4,
+                        text: '电话：(029)87272792'
+                    },{
+                        type: 4,
+                        text: '地址：陕西省西安市碑林区南大街'
+                    }]
+                }],
+                eat: [{
+                    describe: '三秦大地，面食天堂',
+                    info: [{
+                        type: 1,
+                        text: '陕西是一片神奇的土地，从上古祖先“华胥氏”“炎黄二帝”，到“夏商周”，“秦汉隋唐”，都与这片土地有关。三秦大地的美食 和这块古老的土地一样， 散发着迷人的气息。在漫长的历史岁月中，上到皇宫殿堂下到田间地头，诞生出一样又一样的人间美味。有臊子面，牛羊肉泡馍等，山西传统面食。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/4.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@清汤-挂面'
+                    },{
+                        type: 1,
+                        text: '肉夹馍是将面团煎至金黄，之后做成面膜，切开两半，里面加以上好的羊肉。馍香而脆，加以羊肉的淳厚，味道特别香脆。'
+                    }]
+                },{
+                    describe: '面食之都，老百姓的智慧',
+                    info: [{
+                        type: 1,
+                        text: '西安特色美食以各种面食闻名于世，自古至今在西安人民田间地头，柴米有油盐的平凡日子里，面食的制作已是中华之最，每一种美味，都充满了生活气息，都接近人们对大西北生活风气的阐释。'
+                    },{
 
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/8.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@朝与暮'
+                    },{
+                        type: 1,
+                        text: '臊子面是西北地区传统面食，以薄、筋、光、煎、稀、汪、酸、辣、香而著名，历史悠久。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/9.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@真z'
+                    },{
+                        type: 1,
+                        text: '陕西提起牛羊肉泡馍妇孺皆知。当地人视为美食，久食不厌；外来游客莫不争先品尝，以饱口福。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/10.png')
+                    },{
+                        type: 3,
+                        text: '百度百科'
+                    },{
+                        type: 1,
+                        text: '在山西有这样一家美食店，环境中式复古，红色木质与绿植物相呼应，穿越回古代来一次味觉享受，山南风味餐厅，口味兼顾，菜品齐全。'
+                    },{
+                        type: 4,
+                        text: '电话：029-87618972'
+                    },{
+                        type: 4,
+                        text: '地址：陕西省西安市碑林区西木头市51号联邦中航商务酒店1层'
+                    }]
+                }],
+                live: [{
+                    describe: '古城旁，西市边，清雅居舍',
+                    info: [{
+                        type: 0,
+                        text: '【格林童话】进城墙/大唐西市/西大大三居'
+                    },{
+                        type: 1,
+                        text: '推荐亮点:是中心路段，交通、购物便利，临近古城墙，西市，古城夜景一览无余，整洁干净，拼着床品，设施疲惫，封闭式厨房，温馨感爆棚。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/11.png')
+                    },{
+                        type: 1,
+                        text: '夜晚的城墙，灯火通明，落地窗前，古都夜景清晰可见。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/12.png')
+                    },{
+                        type: 1,
+                        text: '全套精选家具，北欧风格，百兆wifi、有线电视，与家人一起享受温馨的古都旅居生活。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/13.png')
+                    },{
+                        type: 1,
+                        text: '超大落地窗，采光良好，宽敞明亮。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/14.png')
+                    },{
+                        type: 1,
+                        text: '精选床品，柔软舒适，一夜酣睡，梦回大唐，一切尽在其中。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/xian/15.png')
+                    },{
+                        type: 1,
+                        text: '整洁干净的卫浴，生活用品一应俱全，24小时热水，实用吹风机，家中一样的便利。'
+                    }]
+                }]
             }, {
                 value: 45,
                 label: '秦岭',
                 cover: require('@/assets/images/cityImg/qinling.png'),
                 titleCover: require('@/assets/images/cityTitle/qinling.png'),
-
+                describe: '陕南福地秦岭自然保护区',
+                info: [{
+                    type: 1,
+                    text: '“云横秦岭家何在?雪拥蓝关马不前。”这句描写秦岭的诗,为世人展现出一幅唯美的秦岭风光画卷。走近秦岭,如同进入-个梦境里，河流飘着雾气，远山云雾缭绕，空谷幽静，白云深处藏人....古诗里描绘的美景在这里随处可见，身临仙境的美妙意境让人流连忘返。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/qinling/1.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@阿杰木木'
+                }],
+                play: [{
+                    describe: '黑河国家森林公园',
+                    info: [{
+                        type: 1,
+                        text: '园区森林茂密，奇峰若雕，怪石嶙峋，山水如画。大熊猫、金丝猴、羚牛等珍稀野生动物倘佯其间，傥骆道、营盘梁、钓鱼台、大蟒河等历史人文景观，凸现着深沉厚重的文化积淀。春之山花烂漫，夏之密林蔽日，秋之红叶满山，冬之白雪皑皑，更使游客情有千结、流连忘返。 '
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/qinling/2.png')
+                    },{
+                        type: 3,
+                        text: '黑河国家森林公园官网'
+                    },{
+                        type: 1,
+                        text: '钓鱼台， 相传为姜子牙在太白山上封神之后，沿黑河而下休息钓鱼之处。黑河水从钓鱼台两边流下。钓鱼台上树木参天，巨石直立，松荫漏日，为避暑纳凉的好场所。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/qinling/3.png')
+                    },{
+                        type: 3,
+                        text: '黑河国家森林公园官网'
+                    },{
+                        type: 1,
+                        text: '黑河，源清流洁，仿佛母亲的乳汁滋润养育着两岸勤劳善良的人们。河对面的两座山峰，形状、大小相同，酷似黑河母亲的双乳，中间有涓涓细流，恰似母亲的乳汁，融入黑河，甘甜可口，沁人心脾。'
+                    },{
+                        type: 4,
+                        text: '电话： (029)85102008'
+                    },{
+                        type: 4,
+                        text: '地址：西安市周至县厚畛子镇'
+                    }]
+                }],
+                eat: [{
+                    describe: '陕西特色，秦岭经典美食',
+                    info: [{
+                        type: 1,
+                        text: '神仙凉粉又叫神仙豆腐，是陕西秦岭山区独有的风味吃食，在汉中，宝鸡的太白，凤县，神仙凉粉以浓重的口味，凉爽可口令人在炎热的夏天舒畅之极，似乎真的成了神仙。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/qinling/4.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@陕西小吃美食'
+                    },{
+                        type: 1,
+                        text: '佛坪蒸盆子这道菜原汁原味，汤醇肉香，色香味俱佳。陕西汉中地道美食。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/qinling/5.png')
+                    },{
+                        type: 3,
+                        text: '百度百科'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/qinling/6.png')
+                    },{
+                        type: 3,
+                        text: '大众点评'
+                    },{
+                        type: 1,
+                        text: '门店推荐远稻亭，菜品应有俱全，环境整洁，陕西家常菜，怎么也吃不够。'
+                    },{
+                        type: 4,
+                        text: '电话：0916-8915959'
+                    },{
+                        type: 4,
+                        text: '地址：汉中市佛坪县老街17号'
+                    }]
+                }],
+                live: [{
+                    describe: '熊猫环保主题民宿',
+                    // qrCodeImg: require('@/assets/images/qrCodeImg/hotel_2405.png'),
+                    // hotelId: '2405',
+                    info: [{
+                        type: 0,
+                        text: '欢墅·精品民宿（万禾秦岭寓舍）',
+                    },{
+                        type: 1,
+                        text: '推荐亮点：秦岭山脉中部，临近自然保护区，风景优美，空气清新，交通便捷，木制精装，亲近动物的温馨氛围，儿童工艺品装饰，亲子出行不二之选。',
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/qinling/7.png')
+                    },{
+                        type: 1,
+                        text: '精品民宿，亲近自然，风景优美，大厅明亮玻璃房设计，给你不一样的感觉。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/qinling/8.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/qinling/9.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/qinling/10.png')
+                    },{
+                        type: 1,
+                        text: '双人房、大床房，柔软精挑床品，保障你安稳睡眠。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/qinling/11.png')
+                    },{
+                        type: 1,
+                        text: '精心布置，熊猫主题，小朋友手工工艺品装饰，温馨可爱，营造良好亲子氛围。家庭出游首选。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/qinling/12.png')
+                    },{
+                        type: 1,
+                        text: '整洁卫浴，用品齐全，如同在家一般的便利。'
+                    }]
+                }]
             }]
         }, {
             value: 5,
@@ -2475,6 +3572,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '烧肉馆网络'
+                    }, {
+                        type: 4,
+                        text: '电话: 010-81009963'
+                    }, {
+                        type: 4,
+                        text: '地址: 古北口镇司马台村古北水镇景区汤河古寨区内'
                     }]
                 }],
                 play: [{
@@ -2530,6 +3633,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@享·旅行定制'
+                    }, {
+                        type: 4,
+                        text: '电话： 010-81009999'
+                    }, {
+                        type: 4,
+                        text: '地址 : 北京市密云区古北口镇司马台村'
                     },]
                 }],
                 live: [{
@@ -2603,10 +3712,16 @@ const state = {
                         text: require('@/assets/images/city/baiyangdian/5.png')
                     }, {
                         type: 2,
-                        text: require('@/assets/images/city/beijing/6.png')
+                        text: require('@/assets/images/city/baiyangdian/6.png')
                     }, {
                         type: 3,
                         text: '小红书用户@Amberrrrrrrrr'
+                    }, {
+                        type: 4,
+                        text: '电话：0312-5053333'
+                    }, {
+                        type: 4,
+                        text: '地址：河北省保定市莲池区裕华东路573号'
                     }]
                 }],
                 play: [{
@@ -2616,16 +3731,22 @@ const state = {
                         text: '这里最值得玩的景点当属白洋淀景区，每年的7月份来此，满塘荷花开放，是观赏摄影的绝佳地点。'
                     }, {
                         type: 2,
-                        text: require('@/assets/images/city/beijing/2.png')
+                        text: require('@/assets/images/city/baiyangdian/2.png')
                     }, {
                         type: 3,
                         text: '小红书用户@马宇'
                     }, {
                         type: 2,
-                        text: require('@/assets/images/city/beijing/3.png')
+                        text: require('@/assets/images/city/baiyangdian/3.png')
                     }, {
                         type: 3,
                         text: '马蜂窝旅游官网'
+                    }, {
+                        type: 4,
+                        text: '电话：0312-5116352'
+                    }, {
+                        type: 4,
+                        text: '地址：保定市保定莲池区永华南大街688号'
                     }]
                 }],
                 live: [{
@@ -2708,10 +3829,43 @@ const state = {
                     }, {
                         type: 1,
                         text: '天津人的乐观也体现在吃上，作为一天的开始，早餐一定要吃好，对于大部分天津人来说，最好吃的煎饼果子一定是“我家楼下那家”。寒冷的北方早晨，一笼狗不理包子，一套加鸡蛋的煎饼果子，一块冒着热气的耳朵眼儿炸糕，便开启了热闹的一天'
+                    }],
+                },{
+                    describe: '浪漫与美食的碰撞',
+                    info: [{
+                        type: 2,
+                        text: require('@/assets/images/city/tianjin/20.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@syhwj'
                     }, {
                         type: 1,
-                        text: ''
-                    },],
+                        text: '天津之眼附近的夜市充满了美食的诱惑，炒凉糕、锅巴菜、三合益凉皮面皮、鸭油包等天津特色小吃在奔波的夜晚给你安慰，是无数人怀念的味道。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/tianjin/21.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@。。'
+                    }, {
+                        type: 1,
+                        text: '如果想体验网红美食，摩天轮拼盘火锅值得一去，其创意来自天津之眼，川味锅底鲜香爽口，蘸料却可以调出天津特色，与北方人偏爱的口味相似，芝麻酱必不可少，既有让人心动的颜值，也有着诱人的味道。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/tianjin/22.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@M畅M'
+                    }, {
+                        type: 1,
+                        text: '位于天津之眼售票处附近，就隐藏着这样一家门店——鳢lǐ·鱼鳢川味融合籽蟹火锅，环境好到超乎想想，纸片鱼和乌鳢鱼骨肉五星推荐！'
+                    }, {
+                        type: 4,
+                        text: '电话：022-27312850'
+                    }, {
+                        type: 4,
+                        text: '地址：天津市和平区荣安大街新秀居116号'
+                    }]
                 }],
                 play: [{
                     describe: '传统与现代的交融',
@@ -2724,10 +3878,7 @@ const state = {
                     }, {
                         type: 1,
                         text: '去一趟天津古文化街、鼓楼、解放桥感受传统文化的魅力，体会老天津人悠闲自在的本地生活；或者到天津之眼、滨海图书馆等气派的地标建筑打卡留念，这里记录了天津的成长与发展，也展现了天津繁荣的一面。'
-                    }, {
-                        type: 0,
-                        text: '城市繁华尽收眼底——天津之眼'
-                    },],
+                    }],
                 }, {
                     describe: '城市繁华尽收眼底——天津之眼',
                     info: [{
@@ -2769,13 +3920,22 @@ const state = {
                     }, {
                         type: 1,
                         text: '一步一景的海河风景线，夜晚灯光亮起璀璨华美，夜景可以与外滩媲美，让人立马感受到大城市风范。夜晚的漫步，经过一座座建筑风格不同的大桥，桥下会有老人家吹萨克斯的街头音乐，走在海河边上有种穿越回布达佩斯的错觉，多瑙河上的桥梁和两岸的布达与佩斯也就是这样，一场意料之外的夜晚漫步，值得来看。'
-                    },],
+                    },{
+                        type: 4,
+                        text: '电话：022-26288830'
+                    },{
+                        type: 4,
+                        text: '地址：天津市红桥区三岔河口永乐桥'
+                    }],
                 }],
                 live: [{
-                    describe: '城宿·天津之眼（临古文化街北竹地地铁清新大两居）',
+                    describe: '想看夜晚的天津之眼有多美？就住这里！',
                     // qrCodeImg: require('@/assets/images/qrCodeImg/hotel_15405.png'),
                     // hotelId: '15405',
                     info: [{
+                        type: 0,
+                        text: '城宿·天津之眼（临古文化街北竹地地铁清新大两居）'
+                    },{
                         type: 1,
                         text: '推荐亮点：交通便利，靠近天津之眼，紧邻地铁口近海河，简约舒适，干净整洁，采光好享受阳光温暖，带有厨房，生活用品齐全，享受家一般的温暖。',
                     }, {
@@ -2787,8 +3947,8 @@ const state = {
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/tianjin/12.png')
-                    }],
-                }],
+                    }]
+                }]
             }, {
                 value: 53,
                 label: '秦皇岛',
@@ -2820,6 +3980,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '龙头麻辣烫配上自制的调料，麻酱香浓，蒜泥增香解腻，唇齿间的美味令人留恋，还有太子锅，北龙牛蛙，清真烧卖等特色美食，点缀着如画的风景，深刻的留在记忆里。',
+                    },{
+                        type: 4,
+                        text: '电话：13472997333'
+                    },{
+                        type: 4,
+                        text: '地址：河北省秦皇岛市海港区开发区长江中道21号'
                     }]
                 }],
                 play: [{
@@ -2836,6 +4002,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '去阿那亚礼堂打卡，去西港花园拍一组好看的写真，去猫的天空之城看书，在海水浴场嬉戏，秦皇岛充满了让你意想不到的惊喜。',
+                    },{
+                        type: 4,
+                        text: '电话：400-810-9988, 400-115-5500'
+                    },{
+                        type: 4,
+                        text: '地址：河北省秦皇岛市昌黎县黄金海岸工业园区锦海南路7号'
                     }]
                 }],
                 live: [{
@@ -3039,6 +4211,9 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书用户@珈蓝视听'
+                    },{
+                        type: 4,
+                        text: '地址：漳州市龙海市东园镇埭尾村埭美自然村'
                     }]
                 }],
                 eat: [{
@@ -3064,6 +4239,12 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书用户@Chili丶'
+                    },{
+                        type: 4,
+                        text: '电话：17759765318'
+                    },{
+                        type: 4,
+                        text: '地址：福建省漳州市龙海区埭美古村69号'
                     }]
                 }],
                 live: [{
@@ -3242,12 +4423,6 @@ const state = {
                         text: '如果厌倦了城市喧嚣，不如来这放松一下吧。这里不仅有优美的自然环境，更可以骑马射箭开卡丁车，而且还可以星空帐篷露营，也有乐队表演。节假日驱车前往，带给你世外桃源般的感受。'
                     },{
                         type: 2,
-                        text: require('@/assets/images/city/zhangzhou/1.png')
-                    },{
-                        type: 3,
-                        text: '小红书用户@雪欺'
-                    },{
-                        type: 2,
                         text: require('@/assets/images/city/zhangzhou/2.png')
                     },{
                         type: 2,
@@ -3261,7 +4436,13 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书用户@阿雅'
-                    }]
+                    },{
+                        type: 4,
+                        text: '电话 : 0591-86396666'
+                    },{
+                        type: 4,
+                        text: '地址 : 福建省福州市永泰县汤埕村'
+                    },]
                 }],
                 eat: [{
                     describe: '星空草地下的火锅烤肉',
@@ -3292,6 +4473,33 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书用户@170的小敏子'
+                    },{
+                        type: 1,
+                        text: '如果不想自己动手的话，推荐建发山附近的这家发现饭店农家菜。菜品多样，平价美味。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/zhangzhou/16.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/zhangzhou/17.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/zhangzhou/18.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/zhangzhou/19.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/zhangzhou/20.png')
+                    },{
+                        type: 3,
+                        text: '大众点评'
+                    },{
+                        type: 4,
+                        text: '电话：0569-8319360'
+                    },{
+                        type: 4,
+                        text: '地址：长泰县503县道十里村下锦洋153号'
                     }]
                 }],
                 live: [{
@@ -3322,9 +4530,6 @@ const state = {
                     },{
                         type: 2,
                         text: require('@/assets/images/city/zhangzhou/14.png')
-                    },{
-                        type: 2,
-                        text: require('@/assets/images/city/zhangzhou/15.png')
                     }]
                 }]
             }]
@@ -3413,8 +4618,8 @@ const state = {
                 }],
                 live: [{
                     describe: '交通辐射全市的最佳住宿地点',
-                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_66.png'),
-                    hotelId: '66',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_7336.png'),
+                    hotelId: '7336',
                     info: [{
                         type: 0,
                         text: '城宿·归心'
@@ -3492,6 +4697,12 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书用户@Sweet'
+                    },{
+                        type: 4,
+                        text: '电话：0744-5712189'
+                    },{
+                        type: 4,
+                        text: '地址：湖南省张家界市武陵源区金鞭路279号'
                     }]
                 }],
                 eat: [{
@@ -3529,6 +4740,12 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书用户@娇蛋'
+                    },{
+                        type: 4,
+                        text: '电话：15211066721'
+                    },{
+                        type: 4,
+                        text: '地址：湖南省张家界市武陵源区天子街宝峰桥头溪布街入口118号'
                     }]
                 }],
                 live: [{
@@ -3561,12 +4778,177 @@ const state = {
             }, {
                 value: 72,
                 label: '武汉',
-                cover: require('@/assets/images/cityImg/wuhan.png')
-            }, {
-                value: 73,
-                label: '咸宁',
-                cover: require('@/assets/images/cityImg/xianning.png')
-            }]
+                cover: require('@/assets/images/cityImg/wuhan.png'),
+                titleCover: require('@/assets/images/cityTitle/wuhan.png'),
+                describe: '荆楚大地，英雄之城',
+                info: [{
+                    type: 1,
+                    text: '“武汉应略如纽约、伦敦之大”是孙中山先生对这座城市的评价，2020年一场疫情，更是让全世界看到了武汉的英雄精神。作为首批中国优秀旅游城市，这里有悠久的历史文化和壮美的自然风光，长江最长的支流汉水穿城而过，形成了武昌、汉口、汉阳三镇鼎立的格局，樱花这座城市靓丽的标签之一，每年春、秋，吸引无数游客前来。'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/wuhan/1.png')
+                },{
+                    type: 3,
+                    text: '百度百科'
+                },{
+                    type: 2,
+                    text: require('@/assets/images/city/wuhan/2.png')
+                },{
+                    type: 3,
+                    text: '小红书用户@哈哈'
+                }],
+                play: [{
+                    describe: '历史与现代交融，不可错过的古今美景',
+                    info: [{
+                        type: 1,
+                        text: '武汉著名景点颇多例如东湖、黄鹤楼、木兰天池、汉口租界、归元寺、欢乐谷、汉口江滩等，既有都市风趣，又有千年文化底蕴，夜色之下，活色生香，蓬勃生长也兼收并蓄，鲜衣怒马裹挟市井烟火。高楼之下，繁华深处，仍有许多古朴、传统、简单的人文景观。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/3.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@CatherineL'
+                    },{
+                        type: 1,
+                        text: '两大必去的景点，黄鹤楼历经千年风雨，一直就矗立在武昌蛇山之上，夜上黄鹤楼，极目远眺，沉浸在历史的光影里；武汉长江大桥更是这座城市的地标，巍然挺立大江之上是天降的彩虹，是飞舞的巨龙，是崛起的丰碑，是久盼的图腾！'
+                    }]
+                },{
+                    describe: '遛娃圣地，家庭休闲娱乐的乐园——武汉园博园',
+                    info: [{
+                        type: 1,
+                        text: '武汉园博园是第十届中国国际园林博览会的举办地，分为南、北两大区域，总面积为213.77公顷，相当于8个北京中山公园那么大。第十届园博会成功举办后，武汉园博园作为城市公园永久保留，市民不用出武汉，就能轻松欣赏全国各地的园林之美，是休闲散心的好去处。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/6.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@棒糖还我'
+                    },{
+                        type: 1,
+                        text: '武汉园博会共有117个展园，其中北京园、上海园、澳门园、等15个展园是必游之地，大江南北，各具特色，令人印象深刻。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/7.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@是吴小黑呀'
+                    },{
+                        type: 1,
+                        text: '北京园，显皇家园林气派一园就可领略天坛、颐和园、故宫的精华美景。汉水京园”是园区最高点，墙上的壁画犹如将小人书搬上了墙，三国纷争、赤壁之战、竹林七贤等历史故事，配合木雕，色彩艳丽、做工精细。看惯了小桥流水人家，一起欣赏下琉璃翠瓦，红墙白塔的美吧。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/8.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@heennsssy'
+                    },{
+                        type: 1,
+                        text: '葡式风情屋，都是地中海式风格。圣保罗教堂的遗迹、妈阁庙、圣保禄炮台、卢家大屋、安多尼旧堂、岗顶剧院，感受澳门的历史和魅力。艺术与历史的交融。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/9.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@棒糖还我'
+                    },{
+                        type: 1,
+                        text: '武汉自然博物馆位于武汉园博园，北靠荆山，南面楚水，填补了武汉地区没有自然博物馆的空白。来一场大河之旅， 聆听生命之歌。带上你的娃，在这里看到，听到，感知到，你所不知道的长江。'
+                    },{
+                        type: 4,
+                        text: '电话：(027)65027332'
+                    },{
+                        type: 4,
+                        text: '地址：武汉市硚口区金南二路'
+                    }]
+                }],
+                eat: [{
+                    describe: '早吃户部巷，晚吃吉庆街，大武汉的美食尝不尽',
+                    info: [{
+                        type: 1,
+                        text: '热干面已经是武汉的代名词，过早文化之下，早起一碗热干面才能点燃武汉人一天的精气神。四季美汤包、武汉鸭脖、什锦豆腐脑、排骨莲藕汤、黄陂三鲜等美食道道精彩，来“江城”内，感受“老武汉”的快乐。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/4.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@可多美食记'
+                    },{
+                        type: 1,
+                        text: '黄鹤楼下，尽享美食，与古人一同举杯畅饮。黄鹤楼边，长江大桥旁，藏在户部巷最地道的湖北菜，是武汉人不吝啬给游客品尝的骄傲。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/5.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@爱吃的樱桃皮卡丘'
+                    }]
+                },{
+                    describe: '百园之园中的美食天堂——汉口里',
+                    info: [{
+                        type: 1,
+                        text: '要用嘴来了解大武汉，不得不来汉口里。位于园博园东门的汉口里是老汉口历史最悠久、内涵最丰富、与社会生活关系最密切的街道。其中地道武汉美食更是数不胜数，清蒸武昌鱼、莲藕排骨汤、大蒜腊肉炒豆丝、桂花糊米酒等美食吸引成千上万的游客去一饱口福。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/10.png')
+                    },{
+                        type: 3,
+                        text: '小红书用户@西西李'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/11.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/12.png')
+                    },{
+                        type: 3,
+                        text: '携程旅行'
+                    },{
+                        type: 1,
+                        text: '门店推荐武汉名街中的文化名店——楚鱼王，这家店东坡肉，清蒸雪水鱼，养生三宝等美味佳肴不容错过，颠覆你对鱼的认知。野生大白刁，肉质鲜嫩，非常清爽。'
+                    },{
+                        type: 4,
+                        text: '电话：(027)83599779'
+                    },{
+                        type: 4,
+                        text: '地址：武汉市硚口区武汉园博园东路9号'
+                    }]
+                }],
+                live: [{
+                    describe: '园博园外，一览都市夜景',
+                    info: [{
+                        type: 0,
+                        text: '【虚度·暖阳】舒适城宿'
+                    },{
+                        type: 1,
+                        text: '推荐亮点：交通便利，旁边是壹方购物中心和武汉天地，只有想不到，没有买不到，一小时之内可到达多个打卡圣地，解放公园，武汉园博园，汉口江滩步行即可到达。夜晚可一览武汉城市夜景，室内整洁干净，设备齐全，舒适宜人。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/13.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/14.png')
+                    },{
+                        type: 1,
+                        text: '室内简单大气，设备一应俱全，方便使用，高清投影仪大屏享受。'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/15.png')
+                    },{
+                        type: 1,
+                        text: '精致的家具，精心的摆设，合适的色调搭配，这样的装潢怎能不爱？'
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/wuhan/16.png')
+                    }]
+                }]
+            }
+            // , {
+            //     value: 73,
+            //     label: '咸宁',
+            //     cover: require('@/assets/images/cityImg/xianning.png'),
+            //     titleCover: require('@/assets/images/cityTitle/xianning.png'),
+            // }
+            ]
         },
         {
             value: 8,
@@ -3614,6 +4996,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '对于购物爱好者来讲三亚更是购物天堂，奥特莱斯无论是衣服还是包包，种类多款式全，且价格更为优惠，无需代购也能低价折扣买到大牌。'
+                    }, {
+                        type: 4,
+                        text: '电话：0898-88568899'
+                    }, {
+                        type: 4,
+                        text: '地址：海南省三亚市吉阳区龙塘路'
                     }]
                 }],
                 eat: [{
@@ -3630,6 +5018,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '奥特莱斯的四川小胡子海鲜加工味道鲜美，是开了23年的老字号，本地人都推荐。'
+                    }, {
+                        type: 4,
+                        text: '电话：15109887031'
+                    }, {
+                        type: 4,
+                        text: '地址：海南省三亚市天涯区新民街122号'
                     }]
                 }],
                 live: [{
@@ -3686,6 +5080,12 @@ const state = {
                     },{
                         type: 1,
                         text: '公园内不仅可以在栈道漫步呼吸负氧离子丰富的空气，还可以欣赏公园内上百只火烈鸟，可以近距离与火烈鸟互动拍照。'
+                    },{
+                        type: 4,
+                        text: '电话：0898-36506688'
+                    },{
+                        type: 4,
+                        text: '地址：海南省澄迈县西线高速573公里三林立交口处'
                     }]
                 }],
                 eat: [{
@@ -3699,6 +5099,12 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书用户@秦楚妃'
+                    },{
+                        type: 4,
+                        text: '电话：13322030862'
+                    },{
+                        type: 4,
+                        text: '地址：海南省澄迈县大丰镇富力红树湾'
                     }]
                 }],
                 live: [{
@@ -3794,7 +5200,13 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@想喝可乐'
-                    }],
+                    }, {
+                        type: 4,
+                        text: '电话：4008830083'
+                    }, {
+                        type: 4,
+                        text: '地址：广东省珠海市香洲区富祥湾长隆度假区内'
+                    }]
                 }],
                 eat: [{
                     describe: '广东人的茶餐厅',
@@ -3843,6 +5255,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@Wensly'
+                    }, {
+                        type: 4,
+                        text: '电话：0756-8826667'
+                    }, {
+                        type: 4,
+                        text: '地址：广东省珠海市香洲区湾仔海鲜街11号'
                     }],
                 }],
                 live: [{
@@ -3902,6 +5320,12 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书@DS'
+                    },{
+                        type: 4,
+                        text: '电话：（无）'
+                    },{
+                        type: 4,
+                        text: '地址：广东省惠州市惠东县巽寮镇粘坑中段'
                     }]
                 }],
                 eat: [{
@@ -3930,6 +5354,12 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书@卢狗子'
+                    },{
+                        type: 4,
+                        text: '电话：15018095474'
+                    },{
+                        type: 4,
+                        text: '地址：广东省惠州市惠东县210县道沙咀尾规划区162号'
                     }]
                 }],
                 live: [{
@@ -4026,9 +5456,14 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书@一林Lizzem'
+                    },{
+                        type: 4,
+                        text: '电话：020-893382222'
+                    },{
+                        type: 4,
+                        text: '地址：广东省广州市海珠区阅江西路222号'
                     }]
-                }
-                ],
+                }],
                 eat: [{
                     describe: '八大菜系之“粤”',
                     info: [{
@@ -4067,6 +5502,12 @@ const state = {
                     },{
                         type: 3,
                         text: '小红书@WULI'
+                    },{
+                        type: 4,
+                        text: '电话：020-89111281'
+                    },{
+                        type: 4,
+                        text: '地址：广东省广州市海珠区逸景路238号海珠万达广场五楼'
                     }]
                 }],
                 live: [{
@@ -4200,6 +5641,12 @@ const state = {
                         }, {
                             type: 3,
                             text: '小红书@方大大大大竹'
+                        }, {
+                            type: 4,
+                            text: '电话：0532-84168111'
+                        }, {
+                            type: 4,
+                            text: '地址：山东省青岛市黄岛区藏南镇'
                         }]
                     }],
                     eat: [{
@@ -4225,6 +5672,12 @@ const state = {
                         }, {
                             type: 3,
                             text: '百度百科'
+                        }, {
+                            type: 4,
+                            text: '电话：15206622616'
+                        }, {
+                            type: 4,
+                            text: '地址：山东省青岛市黄岛区开城路中段藏马山国际旅游度假区'
                         }]
                     }],
                     live: [{
@@ -4284,6 +5737,12 @@ const state = {
                         }, {
                             type: 3,
                             text: '小红书@小理解不吃香菜'
+                        }, {
+                            type: 4,
+                            text: '电话：0631-7712301'
+                        }, {
+                            type: 4,
+                            text: '地址：山东省威海市荣成市站前街'
                         }]
                     }],
                     eat: [{
@@ -4321,6 +5780,12 @@ const state = {
                         }, {
                             type: 3,
                             text: '小红书@桑妮'
+                        }, {
+                            type: 4,
+                            text: '电话：0631-3881111'
+                        }, {
+                            type: 4,
+                            text: '地址：山东省威海市环翠区韩乐坊西街与华夏路交叉路口往东南约50米'
                         }],
                     }],
                     live: [{
@@ -4368,6 +5833,12 @@ const state = {
                 }, {
                     type: 2,
                     text: require('@/assets/images/city/shanghai/1.png')
+                }, {
+                    type: 2,
+                    text: require('@/assets/images/city/shanghai/2.png')
+                }, {
+                    type: 3,
+                    text: '小红书用户'
                 }],
                 play: [{
                     describe: '历史古韵与现代之美的华章',
@@ -4416,7 +5887,13 @@ const state = {
                     }, {
                         type: 1,
                         text: '螺旋轨道，采矿的小矮人，空中大反转，在温馨的童话世界里来一次紧张刺激的穿梭。'
-                    },],
+                    }, {
+                        type: 4,
+                        text: '电话：(021)31580000，4001800000'
+                    }, {
+                        type: 4,
+                        text: '地址：上海市浦东新区川沙镇黄赵路310号'
+                    }]
                 }],
                 eat: [{
                     describe: '与大上海来一次味觉狂欢',
@@ -4456,6 +5933,12 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@寇寇Amy'
+                    }, {
+                        type: 4,
+                        text: '电话：4001800000'
+                    }, {
+                        type: 4,
+                        text: '地址：上海市浦东新区川沙镇黄赵路310号上海迪士尼乐园'
                     }],
                 }],
                 live: [{
@@ -4527,7 +6010,13 @@ const state = {
                     }, {
                         type: 3,
                         text: '小红书用户@折腾的小肉团'
-                    }],
+                    }, {
+                        type: 4,
+                        text: '电话：(021)39367000'
+                    }, {
+                        type: 4,
+                        text: '地址：上海市崇明区东滩东旺中路'
+                    }]
                 }],
                 eat: [{
                     describe: '尝过农家乐才算是真的上了崇明岛',
@@ -4558,6 +6047,12 @@ const state = {
                     }, {
                         type: 1,
                         text: '说到崇明岛的农家乐你那必然是老滋味农家乐，上岛必经之处，交通便利，白斩鸡、油焖青皮茄子、爆炒螺蛳、银鱼跑蛋等岛上特色菜肴，汤鲜味美，店家精心布置，虽少了华贵之气，但也颇有一番意境。'
+                    }, {
+                        type: 4,
+                        text: '电话：13816851311，13818538047'
+                    }, {
+                        type: 4,
+                        text: '地址：陈家镇陈西村1699号'
                     }]
                 }],
                 live: [{

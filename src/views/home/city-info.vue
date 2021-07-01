@@ -3,8 +3,8 @@
     <div class="con flex-cen">
       <Header :title="name" :isBack="true"></Header>
       <div class="topage">
-        <img class="gift" src="@/assets/images/bg/gift_received_icon.png">
-        <!-- <img src="@/assets/images/bg/gift_not_received_icon.png"> -->
+        <img v-if="!isCheckGift" class="gift" src="@/assets/images/bg/gift_received_icon.png">
+        <img v-if="isCheckGift" class="gift" src="@/assets/images/bg/gift_not_received_icon.png">
         <div class="profile" v-if="cityInfo">
           <img :src="cityInfo.titleCover" class="city-title-img">
           <p class="info">{{cityInfo.describe}}</p>
@@ -56,7 +56,8 @@ export default {
       areaId: '',
       cityId: '',
       cityList: [],
-      cityInfo: {}
+      cityInfo: {},
+      isCheckGift: false,
     }
   },
   mounted() {
@@ -64,6 +65,7 @@ export default {
     this.areaId = this.$route.query.areaId;
     this.cityId = this.$route.query.cityId;
     this.cityList = cityList ? cityList.state.cityList : []
+    this.isCheckGift = localStorage.getItem("receivingStatus") ? true : false
     this.init()
   },
   methods: {

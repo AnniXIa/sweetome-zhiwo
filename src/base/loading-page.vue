@@ -1,6 +1,6 @@
 <template>
   <div class="pro" :class="{'on': isOk}" v-if="isShow">
-    <img src="../assets/images/1.jpg" class="bg">
+    <!-- <img src="../assets/images/1.jpg" class="bg"> -->
     <div class="pro-default flex-cen" v-if="!isSlot">
       <div class="pro-box">
         <div class="img">
@@ -88,7 +88,7 @@ export default {
 <style scoped>
   .pro{z-index: 99999;position: fixed;left:0;top:0;width: 100vw;height: 100vh;text-align: center;}
   .pro-default{width: 100%;height: 100%;position: relative;}
-  .pro-default::before,.pro-default::after{content:"";display: block;width: 50%;height: 100%;background: linear-gradient(0, #F28F29 0, #027C60 100%);left:0;top:0;position: absolute;}
+  .pro-default::before,.pro-default::after{content:"";display: block;width: 50%;height: 100%;background: linear-gradient(0, #C5F3FB 0, #93E3F6 100%);left:0;top:0;position: absolute;}
   .pro.on .pro-default::before{transform: translateX(-100%);}
   .pro.on .pro-default::after{transform: translateX(100%);}
   .pro .pro-default::after{left:50%;}

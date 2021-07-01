@@ -22,10 +22,11 @@
             <p class="type1" v-if="item.type == 1">{{item.text}}</p>
             <img class="type2" :src="item.text" v-if="item.type == 2">
             <p class="type3" v-if="item.type == 3">(图源：{{item.text}})</p>
+            <p class="type4" v-if="item.type == 4">{{item.text}}</p>
           </div>
-          <!-- v-if="isWeChat() && from == 'live'" -->
             <!-- username="gh_e6053f8edd2c" :path="`views/booking/unit-type-detail?hotelId=${info.hotelId}`" -->
           <wx-open-launch-weapp
+            v-if="isWeChat() && from == 'live' && info.hotelId"
             id="launch-btn"
             :name="`goHotel${info.hotelId}`"
             username="gh_e981b023f3f7"
@@ -41,7 +42,7 @@
               <button class="handle-btn">预订</button>
             </template>
           </wx-open-launch-weapp>
-          <div class="handle-box" v-if="!isWeChat() && from == 'live'">
+          <div class="handle-box" v-if="!isWeChat() && from == 'live' && info.qrCodeImg">
             <img class="handle-img" :src="info.qrCodeImg">
             <p>截图微信识别二维码进入预订</p>
           </div>
@@ -177,7 +178,7 @@ export default {
   .content-head{
     text-align: center;
     margin: 1rem auto 0;
-    width: 40%;
+    width: 65%;
   }
   .subtitle{
     font-size: .33rem;
@@ -213,6 +214,12 @@ export default {
     font-size: .23rem;
     text-align: center;
     margin-bottom: .6rem
+  }
+  .type4{
+    margin: .1rem 0;
+    font-size: .22rem;
+    font-weight: 300;
+    line-height: .28rem;
   }
   .li{
     margin: .3rem 0 0;
