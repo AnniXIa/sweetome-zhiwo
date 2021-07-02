@@ -73,7 +73,6 @@ export default {
       this.cityList.forEach(e => {
         if (this.areaId == e.value) {
           let cityItem = e.list.filter(v => v.value == this.cityId)
-          console.log(cityItem)
           this.cityInfo = cityItem[0]
           if (this.cityInfo.eat[0].describe) {
             this.cityInfo.eat[0].describe = this.cityInfo.eat[0].describe.replace('<br>', "")
@@ -86,8 +85,6 @@ export default {
           }
         }
       })
-      
-      
     },
     goScenicSpot(type) {
       this.$router.push({

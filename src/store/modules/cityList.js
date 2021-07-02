@@ -4914,16 +4914,16 @@ const state = {
                     }]
                 }],
                 live: [{
-                    describe: '园博园外，一览都市夜景',
+                    describe: '大隐隐于市，闹中取静的片刻悠闲',
                     qrCodeImg: require('@/assets/images/qrCodeImg/hotel_6782.png'), //待替换
                     hotelId: '6782', //待替换
                     hotelId: '',
                     info: [{
                         type: 0,
-                        text: '【虚度·暖阳】舒适城宿'
+                        text: '城宿 昨日青空'
                     },{
                         type: 1,
-                        text: '推荐亮点：交通便利，旁边是壹方购物中心和武汉天地，只有想不到，没有买不到，一小时之内可到达多个打卡圣地，解放公园，武汉园博园，汉口江滩步行即可到达。夜晚可一览武汉城市夜景，室内整洁干净，设备齐全，舒适宜人。'
+                        text: '推荐亮点：交通便利，公寓位于武珞路和丁字桥路交汇口，邻进宝通寺和中南路地铁站，地铁4号线20分钟或自驾15分钟即可到武昌火车站。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/wuhan/13.png')
@@ -4932,16 +4932,16 @@ const state = {
                         text: require('@/assets/images/city/wuhan/14.png')
                     },{
                         type: 1,
-                        text: '室内简单大气，设备一应俱全，方便使用，高清投影仪大屏享受。'
+                        text: '远眺城市的车水马龙，近享尘世的喧嚣烟火。公寓是酒店式大开间公寓，独立设计师设计，房间客厅温馨明亮，密码锁自助入住，安全放心。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/wuhan/15.png')
                     },{
-                        type: 1,
-                        text: '精致的家具，精心的摆设，合适的色调搭配，这样的装潢怎能不爱？'
-                    },{
                         type: 2,
                         text: require('@/assets/images/city/wuhan/16.png')
+                    },{
+                        type: 1,
+                        text: '公寓内开放式厨房器具皆备，24小时热水供应，2*1.8米舒适大床，为您带来安心睡眠与品质体验。'
                     }]
                 }]
             }
