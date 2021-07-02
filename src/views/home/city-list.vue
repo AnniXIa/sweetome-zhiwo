@@ -18,7 +18,7 @@
             <img class="title-img" :src="area.cover">
             <div>
               <div class="item" v-for="(city,index) in area.list" :key="city.value"
-                :style="{ backgroundImage: `url(${city.cover})`, marginRight: (index+1)%3==0 ? '0' : '5.6%'}"
+                :style="{ backgroundImage: `url(${city.cover})`, marginRight: (index+1)%3==0 ? '0' : '.4rem'}"
                 @click="goCityInfo(area, city)">
                 <p class="name">{{city.label}}</p>
               </div>
