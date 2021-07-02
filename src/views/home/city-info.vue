@@ -22,13 +22,13 @@
             <p>{{cityInfo.eat[0].describe}}</p>
             <img class="in_icon" src="@/assets/images/bg/in.png">
           </div>
-          <img v-if="cityInfo.play && cityInfo.play.length > 0" src="@/assets/images/bg/dividing_line.png">
+          <!-- <img v-if="cityInfo.play && cityInfo.play.length > 0" src="@/assets/images/bg/dividing_line.png"> -->
           <div v-if="cityInfo.play && cityInfo.play.length > 0" class="li" @click="goScenicSpot('play')">
             <img class="icon" src="@/assets/images/bg/play_icon.png">
             <p>{{cityInfo.play[0].describe}}</p>
             <img class="in_icon" src="@/assets/images/bg/in.png">
           </div>
-          <img v-if="cityInfo.live && cityInfo.live.length > 0" src="@/assets/images/bg/dividing_line.png">
+          <!-- <img v-if="cityInfo.live && cityInfo.live.length > 0" src="@/assets/images/bg/dividing_line.png"> -->
           <div v-if="cityInfo.live && cityInfo.live.length > 0" class="li" @click="goScenicSpot('live')">
             <img class="icon" src="@/assets/images/bg/zhu_icon.png">
             <p>{{cityInfo.live[0].describe}}</p>
@@ -162,12 +162,24 @@ export default {
   .type3{
     font-size: .23rem;
     text-align: center;
-    margin-bottom: .6rem
+    margin-bottom: .6rem;
+    color: #999;
   }
   .li{
-    margin: .1rem 0 -.3rem;
+    margin: .5rem 0;
     display: flex;
     align-items: center;
+    position: relative;
+  }
+  .li:after{
+    content: '';
+    border-bottom: 1px solid #5C9BA8;
+    opacity: .2;
+    height: 1px;
+    width: calc(100% - 1.4rem);
+    position: absolute;
+    bottom: -.3rem;
+    right: 0;
   }
   .li p{
     font-size: .32rem;
@@ -183,7 +195,7 @@ export default {
   .li .in_icon{
     width: .15rem;
     position: absolute;
-    right: .4rem;
+    right: 0;
   }
   .bottom-bg{
     margin-top: 1.5rem;

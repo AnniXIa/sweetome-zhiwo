@@ -173,7 +173,7 @@ export default {
     width: 1rem;
   }
   .content{
-    margin: .2rem;
+    margin: .2rem .4rem;
   }
   .content-head{
     text-align: center;
@@ -203,7 +203,7 @@ export default {
   .type1{
     font-size: .28rem;
     font-weight: 300;
-    line-height: .45rem;
+    line-height: .55rem;
     margin: .4rem 0;
   }
   .type2{
@@ -213,7 +213,8 @@ export default {
   .type3{
     font-size: .23rem;
     text-align: center;
-    margin-bottom: .6rem
+    margin-bottom: .6rem;
+    color: #999;
   }
   .type4{
     margin: .1rem 0;
