@@ -25,12 +25,13 @@
             <p class="type4" v-if="item.type == 4">{{item.text}}</p>
           </div>
             <!-- username="gh_e6053f8edd2c" :path="`views/booking/unit-type-detail?hotelId=${info.hotelId}`" -->
+            <!-- v-if="isWeChat() && from == 'live' && info.hotelId" -->
           <wx-open-launch-weapp
             v-if="isWeChat() && from == 'live' && info.hotelId"
             id="launch-btn"
             :name="`goHotel${info.hotelId}`"
-            username="gh_e981b023f3f7"
-            path="pages/login/login.html"
+            username="gh_e6053f8edd2c"
+            :path="`views/booking/unit-type-detail?hotelId=${info.hotelId}`"
             default
             @ready="handlReady"
             @launch="handleLaunchFn"
@@ -39,7 +40,7 @@
               <button class="handle-btn">预订</button>
             </script> -->
             <template>
-              <button class="handle-btn">预订</button>
+              <button class="handle-btn">预 订</button>
             </template>
           </wx-open-launch-weapp>
           <div class="handle-box" v-if="!isWeChat() && from == 'live' && info.qrCodeImg">
@@ -232,14 +233,15 @@ export default {
     width: 1rem
   }
   .handle-btn{
-    width: 94%;
-    border-radius: 1rem;
-    background: #1CB2EC;
+    width: 50%;
+    background: url('~@/assets/images/bg/btn_bg.png') no-repeat;
     color: #fff;
     text-align: center;
     padding: .3rem 0;
     margin: .6rem auto 1rem;
     font-size: .28rem;
+    background-size: 100% 100%;
+    height: 1rem;
     font-weight: bold;
   }
   .handle-box{

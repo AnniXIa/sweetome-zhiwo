@@ -453,6 +453,8 @@ const state = {
                 }],
                 live: [{
                     describe: '门观竹海万亩绿，<br>窗含“天荒”江南雪',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_21.png'),
+                    hotelId: '21',
                     info: [{
                         type: 0,
                         text: '欢墅·竹博园精品度假别墅'
@@ -583,6 +585,8 @@ const state = {
                 }],
                 live: [{
                     describe: '远离城市喧嚣，抛开尘世纷扰，<br>还来一份宁静',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_8149.png'),
+                    hotelId: '8149',
                     info: [{
                         type: 0,
                         text: '欢墅·度假别墅（长兴南山雅居）'
@@ -740,8 +744,8 @@ const state = {
                 }],
                 live: [{
                     describe: '温馨城宿，极致享受',
-                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_66.png'),
-                    hotelId: '66',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_7628.png'), //待替换
+                    hotelId: '7628',
                     info: [{
                         type: 0,
                         text: '【城宿·清风徐来】鄞州中心地段、 落地窗投影仪2人居|紧邻鄞州万达'
@@ -1696,8 +1700,8 @@ const state = {
                 }],
                 live: [{
                     describe: '高档住宿环境，<br>轻奢主题公寓',
-                    qrCodeImg: '',
-                    hotelId: '',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_15527.png'), //待替换图片名称
+                    hotelId: '15527',
                     info: [{
                         type: 0,
                         text: '城宿.天空之城'
@@ -1978,19 +1982,19 @@ const state = {
                     describe: '鱼米之乡，东台特供',
                     info: [{
                         type: 1,
-                        text: '盐城东台的特色美食种类多多，富安酥儿饼啦，东台虾池啦，让人垂涎欲滴。'
+                        text: '盐城东台的特色美食种类多多，富安酥儿饼啦，东台虾池啦，让人垂涎欲滴，当然还有极具当地特色的东台鱼汤面，吸溜一口，爽滑鲜香。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/huanghaisenlin/4.png')
+                    },{
+                        type: 2,
+                        text: require('@/assets/images/city/huanghaisenlin/5.png')
                     },{
                         type: 3,
                         text: '网络'
                     },{
                         type: 1,
-                        text: '游森林公园途中，可顺便到附近这家青青家常菜馆吃个午饭。这边家常菜馆比较难找，所幸附近还有这家，若是不想吃西式快餐或是想体验本地味道的游客不妨一试。'
-                    },{
-                        type: 2,
-                        text: require('@/assets/images/city/huanghaisenlin/5.png')
+                        text: '想要吃到正宗的鱼汤面，一定要来开在西溪景区的东台鱼汤面，据说是官方打造的正宗鱼汤面馆，每天都是人头攒动，环境很好，装修古香古色，是当地的招牌门店。'
                     },{
                         type: 2,
                         text: require('@/assets/images/city/huanghaisenlin/6.png')
@@ -2001,11 +2005,14 @@ const state = {
                         type: 2,
                         text: require('@/assets/images/city/huanghaisenlin/8.png')
                     },{
-                        type: 4,
-                        text: '电话：15312876179'
+                        type: 3,
+                        text: '小红书用户@盐城米老板'
                     },{
                         type: 4,
-                        text: '地址：江苏省盐城市东台市弶港镇巴斗村'
+                        text: '电话：0515-89518777'
+                    },{
+                        type: 4,
+                        text: '地址：江苏省盐城市东台泰山大道103号'
                     }]
                 }],
                 live: [{
@@ -2870,8 +2877,8 @@ const state = {
                 }],
                 live: [{
                     describe: '给自己放个假',
-                    // qrCodeImg: require('@/assets/images/qrCodeImg/hotel_8142.png'),
-                    // hotelId: '8142',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_8142.png'),
+                    hotelId: '8142',
                     info: [{
                         type: 0,
                         text: '欢墅 • 精品度假屋（抚仙湖欢乐大世界）'
@@ -3337,6 +3344,8 @@ const state = {
                 }],
                 live: [{
                     describe: '古城旁，西市边，清雅居舍',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_16454.png'), //待替换
+                    hotelId: '16454',
                     info: [{
                         type: 0,
                         text: '【格林童话】进城墙/大唐西市/西大大三居'
@@ -3461,8 +3470,8 @@ const state = {
                 }],
                 live: [{
                     describe: '熊猫环保主题民宿',
-                    // qrCodeImg: require('@/assets/images/qrCodeImg/hotel_2405.png'),
-                    // hotelId: '2405',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_2405.png'),
+                    hotelId: '2405',
                     info: [{
                         type: 0,
                         text: '欢墅·精品民宿（万禾秦岭寓舍）',
@@ -3921,8 +3930,8 @@ const state = {
                 }],
                 live: [{
                     describe: '想看夜晚的天津之眼有多美？就住这里！',
-                    // qrCodeImg: require('@/assets/images/qrCodeImg/hotel_15405.png'),
-                    // hotelId: '15405',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_3622.png'),
+                    hotelId: '3622',
                     info: [{
                         type: 0,
                         text: '城宿·天津之眼（临古文化街北竹地地铁清新大两居）'
@@ -4240,8 +4249,8 @@ const state = {
                 }],
                 live: [{
                     describe: '位于漳州的“西班牙”海景房',
-                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_66.png'),
-                    hotelId: '66',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_145.png'),
+                    hotelId: '145',
                     info: [{
                         type: 0,
                         text: '斯维登·卡达凯斯度假公寓'
@@ -4906,6 +4915,9 @@ const state = {
                 }],
                 live: [{
                     describe: '园博园外，一览都市夜景',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_6782.png'), //待替换
+                    hotelId: '6782', //待替换
+                    hotelId: '',
                     info: [{
                         type: 0,
                         text: '【虚度·暖阳】舒适城宿'
@@ -5826,7 +5838,7 @@ const state = {
                 describe: '来一场“东方巴黎”梦幻之旅',
                 info: [{
                     type: 1,
-                    text: '中国之最。上海位于我国大陆海岸线中部的长江口繁华的大上海，这里人流如潮、车水马龙。东方明珠塔卓然秀立于黄浦江岸边、现代化建筑群中，也不缺历史为我们留下的美景。夜晚,从黄浦江的游轮上看，明珠塔上点点繁星,熠熠生辉,光影流动，变幻奇妙。'
+                    text: '上海位于我国大陆海岸线中部的长江口繁华的大上海，这里人流如潮、车水马龙。东方明珠塔卓然秀立于黄浦江岸边、现代化建筑群中，也不缺历史为我们留下的美景。夜晚,从黄浦江的游轮上看，明珠塔上点点繁星,熠熠生辉,光影流动，变幻奇妙。'
                 }, {
                     type: 2,
                     text: require('@/assets/images/city/shanghai/1.png')
@@ -5853,7 +5865,7 @@ const state = {
                     describe: '一次童话世界奇妙之旅——<br>上海迪士尼乐园',
                     info: [{
                         type: 1,
-                        text: '上海迪士尼乐园，位于上海市浦东新区川沙镇黄赵路310号，是中国内地首座迪士尼主题园，主题园区分为米奇大街、奇想花园、探险岛拥有迪士尼城堡等。游泳、滑冰、驾帆船，到深海捕鱼，乘气球升空，或是参观附近的名胜古迹。这些丰富多彩的节目，给迪斯尼世界更增添了几分魅，与你的童年和心中的英雄真实接触。'
+                        text: '上海迪士尼乐园，位于上海市浦东新区川沙镇黄赵路310号，是中国内地首座迪士尼主题园，主题园区分为米奇大街、奇想花园、探险岛拥有迪士尼城堡等。游泳、滑冰、驾帆船，到深海捕鱼，乘气球升空，或是参观附近的名胜古迹。这些丰富多彩的节目，给迪士尼世界更增添了几分魅，与你的童年和心中的英雄真实接触。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/shanghai/6.png')
@@ -5865,7 +5877,7 @@ const state = {
                     describe: '来了，来了，你的童话王国。',
                     info: [{
                         type: 1,
-                        text: '上海迪士尼各大主题乐园没有之一，踏进每一个乐园都是新的天地。'
+                        text: '上海迪士尼各大主题乐园，踏进每一个乐园都是新的天地。'
                     }, {
                         type: 2,
                         text: require('@/assets/images/city/shanghai/7.png')
@@ -5940,8 +5952,8 @@ const state = {
                 }],
                 live: [{
                     describe: '轻奢享受，超值舒适',
-                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_66.png'),
-                    hotelId: '66',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_15534.png'), //待替换
+                    hotelId: '15534',
                     info: [{
                         type: 0,
                         text: '城宿·云居（近迪士尼浦东机场loft两居）'
@@ -6054,8 +6066,8 @@ const state = {
                 }],
                 live: [{
                     describe: '近海精品别墅，奢华超值。',
-                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_66.png'),
-                    hotelId: '66',
+                    qrCodeImg: require('@/assets/images/qrCodeImg/hotel_620.png'),
+                    hotelId: '620',
                     info: [{
                         type: 0,
                         text: '欢墅·精品民宿崇明金茂悦公馆店'
